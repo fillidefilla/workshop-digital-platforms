@@ -35,6 +35,25 @@ comment: todo
 
 # Die Macht der digitalen Plattformen
 
+
+## Vorab
+
+Wie alt ist das Internet?
+
+    [( )] 12 Jahre
+    [( )] 22 Jahre
+    [( )] ca. 34 Jahre
+    [(X)] über 50 Jahre
+
+---
+
+Wann wurde die erste Email versandt?
+
+    [(X)] 20. Juli 1971
+    [( )] 30. Februar 1982
+    [( )] 3. Oktober 1989
+
+
 ## 1969 - 1983 (@ARPAnet)
 
 * Dezentrales Netzwerk zur Verbindung von Großrechnern an US-amerikanischen
@@ -175,21 +194,22 @@ aber auch gleichzeitig ein Editor für @HTML Dokumente.
 ![Screenshot von WorldWideWeb, dem ersten Webbrowser](https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png)@style
 
 
-### Gopher
+### [Gopher](https://de.wikipedia.org/wiki/Gopher)
 
-> Man muss erwähnen, dass das es neben dem @WWW auch andere Versuche gab und
-> gibt Informationen in strukturierter Art und Weise abzulegen und miteinander
-> zu verknüpfen. Einer der bekanntesten Kontrahenten der in vielen Punkten mit
-> dem Ansatz von Tim Berners-Lee vergleichbar ist, ist:
->
-> [Gopher](https://de.wikipedia.org/wiki/Gopher)
+    --{{0}}--
+Man muss erwähnen, dass das es neben dem @WWW auch andere Versuche gab und gibt
+Informationen in strukturierter Art und Weise abzulegen und miteinander zu
+verknüpfen. [Gopher](https://de.wikipedia.org/wiki/Gopher) war/ist einer
+bekanntesten Kontrahenten der in vielen Punkten mit dem Ansatz von Tim
+Berners-Lee vergleichbar ist.
 
-Todo: Screenshot
+
+![Screenshot Fog-Browser](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipedia_Gopher_forg_v0.5.1.png "Der Wikipedia-Artikel in der englischsprachigen Wikipedia mit dem Browser forg")<!-- style="width: 100%" -->
+
 
 ## heute - Web 2.0
 
-
-
+    --{{0}}--
 Zusammenfassend lässt sich sagen, dass das Internet mit dem @WWW als
 Killerapplikation einen ähnlichen gesellschaftlichen Umbruch markieren wie die
 Erfindung des Buchdrucks. Das Internet wurde Grundlegend als dezentrales System
@@ -197,19 +217,17 @@ entworfen und entwickelt, wobei das @WWW ursprünglich nur den **freien** Zugrif
 auf Informationen bereitstellen sollte die von jedem **gleichberechtig**
 eingesehen und veröffentlicht werden können.
 
-Über den Internetbrowser lassen sich gängige Webseiten wie „Amazon“ oder „eBay“
-suchen und abrufen. Aber diese offenen, leicht zugänglichen Seiten bilden nur
-die sichtbare Oberfläche des World Wide Webs.
 
-> Probleme: Das System ist schnell gewachsen, technisch komplizierter geworden, todo
+<iframe src="https://internet-map.net" style="width: 100%; height: 82%"></iframe>
 
-    {{1}}
-![Visualisierung eines Teils des Internets](https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg)@style
 
-> Todo Abhilfe schaffen hier Portale... Was ist ein Portal
+    --{{1}}--
+Das Internet ist zu schnell gewachsen, technisch für die meisten Leute viel zu
+kompliziert und teuer geworden. Über den Internetbrowser lassen sich gängige
+Webseiten wie „Amazon“ oder „eBay“ sehr kompfortabel abrufen und durchsuchen.
+Aber diese "offenen", leicht zugänglichen Plattformen bilden nur die sichtbare
+Oberfläche des World Wide Webs.
 
-    {{2}}
-![Architektur von Prozessportalen](https://upload.wikimedia.org/wikipedia/commons/9/9b/Architektur_von_Prozessportalen.JPG)@style
 
 ### Plattform Übersicht
 
@@ -306,15 +324,16 @@ Plattform auszurollen.”
 ![](pic/economy.png)@style
 
 
-“Im Gegensatz zu vielen anderen Autoren erkennt der bereits zitierte
-Internetblogger Sascha Lobo die Sprachnot der Digitalisierung, wenn er schreibt:
-„Man sagt Internet, aber Apps gehören in der Regel nicht dazu. Man sagt Netz,
-aber Android kann damit kaum gemeint sein. Man sagt Web, aber Ebooks haben damit
-wenig zu tun. Aber Begriffe prägen Diskussionen und damit die zukünftige
-Entwicklung.“ So schlägt Lobo dann vor: „… deshalb soll der Begriff ,Digitale
-Sphäre ‘ für alles stehen, was elektronisch und datenbasiert funktioniert”
-
-Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
+> “Im Gegensatz zu vielen anderen Autoren erkennt der bereits zitierte
+> Internetblogger Sascha Lobo die Sprachnot der Digitalisierung, wenn er
+> schreibt: „Man sagt Internet, aber Apps gehören in der Regel nicht dazu. Man
+> sagt Netz, aber Android kann damit kaum gemeint sein. Man sagt Web, aber
+> Ebooks haben damit wenig zu tun. Aber Begriffe prägen Diskussionen und damit
+> die zukünftige Entwicklung.“ So schlägt Lobo dann vor: „… deshalb soll der
+> Begriff ,Digitale Sphäre ‘ für alles stehen, was elektronisch und datenbasiert
+> funktioniert”
+>
+> Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
 ### Case Studies
 
@@ -383,32 +402,36 @@ todo
 
 ## Möglich Lösungen
 
-### @IPFS
+### @IPFS & Die Probleme des Internets
 
+    {{0-1}}
 > **InterPlanetary File System:** A peer-to-peer hypermedia protocol designed to
 > make the web faster, safer, and more open.
 >
 > -- Quelle: https://ipfs.io
 
-Probleme des Internets
-======================
 
+
+    {{1-2}}
+********************************************************************************
+
+Uneffizient und teuer
+=====================
 
     --{{1}}--
 Daten werden zumeinst vollständig von einem Server geladen, obwohl das teilweise
 und gleichzeitige laden von mehreren Peers resourcensparend und schneller ist.
 
+![](https://ipfs.io/images/ipfs-illustration-http.svg)@style
 
-    {{1-2}}
-> **Uneffizient und teuer**
->
-> ![](https://ipfs.io/images/ipfs-illustration-http.svg)@style
+********************************************************************************
 
 
     {{2-3}}
-> **Es kann die Geschichte der Menschheit nicht bewahren**
->
-> ![](https://ipfs.io/images/ipfs-illustration-history.svg)@style
+********************************************************************************
+
+Es kann die Geschichte der Menschheit nicht bewahren
+====================================================
 
     --{{2}}--
 Webseiten kommen und gehen, die durchschnittliche Lebensdauer einer Webseite
@@ -416,21 +439,48 @@ beträgt 100 Tage. Das Peer-to-Peer System von @IPFS speichert auch die
 vorhergehenden Versionen. Falls ein Peer ausfällt oder Daten aktualisiert
 werden, so können andere Seiten immernoch auf die alten Inhalte zugreifen.
 
+![](https://ipfs.io/images/ipfs-illustration-history.svg)@style
+
+********************************************************************************
+
+
+
     {{3-4}}
-> **Zentralisiert und limitierend**
->
-> ![](https://ipfs.io/images/ipfs-illustration-centralized.svg)@style
+********************************************************************************
+
+Zentralisiert und limitierend
+=============================
+
+--{{3}}--
+Das Internet hat Innovationen beschleunigt und gewährt allen Menschen
+gleichermaßen Zugriff auf Wissen, jedoch wird diese Freiheit durch mehr und mehr
+Kontrollen bedroht.
+
+![](https://ipfs.io/images/ipfs-illustration-centralized.svg)@style
+
+********************************************************************************
+
 
 
     {{4-5}}
-> **Abhängig von der Infrastruktur**
->
-> ![](https://ipfs.io/images/ipfs-illustration-network.svg)@style
+********************************************************************************
 
+Abhängig von der Infrastruktur
+==============================
 
-### @WebDAV
+Durch seine zentralisierte Infrastruktur ist das Internet auch sehr
+fehleranfällig. Bricht ein wichtiger Knotenpunkt weg, dann können vermutlich
+viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
-Web-based Distributed Authoring and Versioning
+![](https://ipfs.io/images/ipfs-illustration-network.svg)@style
+
+********************************************************************************
+
+### Beaker Browser
+
+!?[Building peer-to-peer apps with the Beaker Browser - Tara Vancil](https://www.youtube.com/watch?v=raUE23RKLvE)
+
+https://dat.foundation/
 
 ### Morgen - Web 3.0
 
