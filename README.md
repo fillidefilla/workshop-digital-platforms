@@ -229,23 +229,10 @@ Aber diese "offenen", leicht zugänglichen Plattformen bilden nur die sichtbare
 Oberfläche des World Wide Webs.
 
 
-### Plattform Übersicht
+## Digitale Plattformen
+TODO: Begriffe Digital und Plattform
 
-<!-- data-title="Worldwide market capitalisation of digital platforms (e.g. Uber, Facebook etc) as of 2015" data-show -->
-| Region             | US Dollar (Milliarde) |
-| ------------------ | ---------------------:|
-| Vereinigte Staaten |                3350.0 |
-| Asien              |                 854.0 |
-| Europa             |                 128.0 |
-| Afrika             |                  74.0 |
-| Süd Amerika        |                  13.5 |
-
-
-![](pic/bubbles.png)@style
-
-
-
-#### Plattformen
+### Web Plattformen
 
 <!-- data-type="barchart" -->
 | Site                | Daily Time on Site | Daily Pageviews per Visitor | % of Traffic From Search | Total Sites Linking In | Eigentümer                   | Beschreibung                   |
@@ -307,7 +294,38 @@ Quellen:
 2. Wikipedia: [Liste der meistaufgerufenen Websites](https://de.wikipedia.org/wiki/Liste_der_meistaufgerufenen_Websites#cite_note-1)
 
 
-## Startups
+### Digitale Plattformunternehmen
+
+--{{0}}--
+In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den digitalen Markt.
+
+
+![](pic/digital-platform-bubbles.png)@style
+
+
+### Kapitalisierung digitaler Plattformen
+
+--{{0}}--
+Gemessen am Börsenwert gibt es in Nordamerika mehr Plattformunternehmen, die Werte schaffen, als in allen anderen Regionen der Welt. Die Plattformunternehmen des homogenen Marktes in China wachsen schnell. Die Plattformunternehmen des fragmentierten Marktes in Europa besitzen nur weniger als ein Viertel des Wertes der nordamerikanischen Unternehmen dieser Art. Un auch die Regionen der Entwicklungsländer in Afrika und Lateinamerika liegen nicht weit zurück.
+
+
+<!-- data-title="Worldwide market capitalisation of digital platforms (e.g. Uber, Facebook etc) as of 2015" data-show -->
+| Region             | US Dollar (Milliarde) |
+| ------------------ | ---------------------:|
+| Vereinigte Staaten |                3350.0 |
+| Asien              |                 854.0 |
+| Europa             |                 128.0 |
+| Afrika             |                  74.0 |
+| Süd Amerika        |                  13.5 |
+
+
+<!-- ![](pic/bubbles.png)@style -->
+
+Quelle:
+Peter Evants, Center for Global Enterprise
+
+
+#### Startups
 
 Sie sind die erfolgreichsten deutschen Investoren im Internet: die drei Brüder
 Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus Zalando bauten sie
@@ -319,7 +337,7 @@ Antwort auf die digitale Disruption gefunden. Sie entwickelten eine Methode, im
 Markt erfolgreiche digitale Geschäftsmodelle zu kopieren und über eine digitale
 Plattform auszurollen.”
 
-## Plattform Economy
+### Digitale Plattform Wirtschaft
 
 ![](pic/economy.png)@style
 
@@ -335,7 +353,7 @@ Plattform auszurollen.”
 >
 > Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
-### Case Studies
+### Digitale Plattform Case Studies
 
 #### Facebook Case Study
 
