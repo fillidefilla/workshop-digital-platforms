@@ -303,6 +303,28 @@ In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den 
 ![](pic/digital-platform-bubbles.png)@style
 
 
+
+Kennst du eines der grössten Plattformunternehmen?
+
+[[solution]]
+<script>
+let solutions = ["solution", "apple", "microsoft", "google", "amazon", "facebook"]
+
+let str = "@input".trim().toLocaleLowerCase()
+
+let isSolved = false
+
+for (let i =0; i< solutions.length; i++) {
+  if (str==solutions[i]) {
+    isSolved = true
+    break
+  }
+}
+
+isSolved
+</script>
+
+
 ### Kapitalisierung digitaler Plattformen
 
 --{{0}}--
