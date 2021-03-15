@@ -34,9 +34,22 @@ comment: todo
 -->
 
 # Die Macht der digitalen Plattformen
+Die Digitalisierung verändert alles - wie wir leben und arbeiten. Wir sind längst in einer digitalisierten Welt angekommen. Wohnraum (Airbnb) und Fahrservice (Uber) werden per App geteilt; Freunde/Partner finden sich über eine App (Tinder) - Der digitale Wandel sorgt nicht nur für neue Dienste und Produkte, sondern auch für einen Umbruch der traditionellen Ökonomie.
+
+Was für digitale Plattformen gibt es, wie sind diese aufgebaut und wie beeinflussen sie unser Leben? Wie meistert das Engadin als Randregion den digitalen Wandel? Wir vergleichen bestehende digitale Plattformen und schauen hinter die Kulisse. Wir skizzieren Ideen und testen, ob diese als Startup Potential haben. Weiter schauen wir uns (offene) open-source Plattformen an und wie du mit der Entwicklung mithelfen kannst.
+
+---
+
+Digitisation is changing everything - how we live and work. We have long arrived in a digitised world. Living space (Airbnb) and chauffeur service (Uber) are shared via an app; Friends / Partners can be found via an app (Tinder) - The digital transformation provides for not only new services and products, but also a change of the traditional economy.
+
+What are the digital platforms, how are they structured, and how do they influence our lives? How does the Engadin master the digital transformation? We compare existing digital platforms and look behind the scenes. We outline your ideas and test whether they have potential as a startup. Furthermore, we look at open-source platforms and how you can take part in the development of the platform.
 
 
-## Vorab
+
+
+
+
+## Internet
 
 Wie alt ist das Internet?
 
@@ -54,7 +67,9 @@ Wann wurde die erste Email versandt?
     [( )] 3. Oktober 1989
 
 
-## 1969 - 1983 (@ARPAnet)
+
+
+### 1969 - 1983 (@ARPAnet)
 
 * Dezentrales Netzwerk zur Verbindung von Großrechnern an US-amerikanischen
   Universitäten (ursprünglich):
@@ -81,7 +96,10 @@ Wann wurde die erste Email versandt?
 
 ![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg "Karte des ARPA-Netzwerks im Jahre 1973")@style
 
-## 1981 - 1993 (@TCP/@IP, @DNS)
+
+
+
+### 1981 - 1993 (@TCP/@IP, @DNS)
 
 Wie funktioniert unser heutiges Internet?
 =========================================
@@ -132,7 +150,12 @@ vereinfacht gesagt eine art Telefonbuch, es übersetzt die von Menschen leicht
 lesbaren Adressen wie www.google.de in @IP-Adressen.
 
 
-## 1989 - heute (@WWW)
+
+
+
+
+## Web
+### 1989 - heute (@WWW)
 
     --{{1}}--
 Das was wir vermeintlich Internet nennen ist das so genannte World Wide Web und
@@ -194,7 +217,9 @@ aber auch gleichzeitig ein Editor für @HTML Dokumente.
 ![Screenshot von WorldWideWeb, dem ersten Webbrowser](https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png)@style
 
 
-### [Gopher](https://de.wikipedia.org/wiki/Gopher)
+
+
+### Gopher
 
     --{{0}}--
 Man muss erwähnen, dass das es neben dem @WWW auch andere Versuche gab und gibt
@@ -207,7 +232,9 @@ Berners-Lee vergleichbar ist.
 ![Screenshot Fog-Browser](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipedia_Gopher_forg_v0.5.1.png "Der Wikipedia-Artikel in der englischsprachigen Wikipedia mit dem Browser forg")<!-- style="width: 100%" -->
 
 
-## heute - Web 2.0
+
+
+### heute - Web 2.0
 
     --{{0}}--
 Zusammenfassend lässt sich sagen, dass das Internet mit dem @WWW als
@@ -229,10 +256,9 @@ Aber diese "offenen", leicht zugänglichen Plattformen bilden nur die sichtbare
 Oberfläche des World Wide Webs.
 
 
-## Digitale Plattformen
-TODO: Begriffe Digital und Plattform
 
-### Web Plattformen
+
+### Websites / Web Plattformen
 
 <!-- data-type="barchart" -->
 | Site                | Daily Time on Site | Daily Pageviews per Visitor | % of Traffic From Search | Total Sites Linking In | Eigentümer                   | Beschreibung                   |
@@ -294,6 +320,15 @@ Quellen:
 2. Wikipedia: [Liste der meistaufgerufenen Websites](https://de.wikipedia.org/wiki/Liste_der_meistaufgerufenen_Websites#cite_note-1)
 
 
+
+
+
+
+## Digitale Plattformen
+TODO: Begriffe Digital und Plattform
+
+
+
 ### Digitale Plattformunternehmen
 
 --{{0}}--
@@ -325,7 +360,9 @@ isSolved
 </script>
 
 
-### Kapitalisierung digitaler Plattformen
+
+
+#### Globaler Markt
 
 --{{0}}--
 Gemessen am Börsenwert gibt es in Nordamerika mehr Plattformunternehmen, die Werte schaffen, als in allen anderen Regionen der Welt. Die Plattformunternehmen des homogenen Marktes in China wachsen schnell. Die Plattformunternehmen des fragmentierten Marktes in Europa besitzen nur weniger als ein Viertel des Wertes der nordamerikanischen Unternehmen dieser Art. Un auch die Regionen der Entwicklungsländer in Afrika und Lateinamerika liegen nicht weit zurück.
@@ -347,19 +384,9 @@ Quelle:
 Peter Evants, Center for Global Enterprise
 
 
-#### Startups
 
-Sie sind die erfolgreichsten deutschen Investoren im Internet: die drei Brüder
-Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus Zalando bauten sie
-einen Milliardenkonzern auf. Wimdu und home24 sind weitere Firmen, bei denen sie
-die Fäden ziehen.
 
-“Die Start-up-Fabrik „Rocket Internet“ der Samwer-Brüder hat eine ganz eigene
-Antwort auf die digitale Disruption gefunden. Sie entwickelten eine Methode, im
-Markt erfolgreiche digitale Geschäftsmodelle zu kopieren und über eine digitale
-Plattform auszurollen.”
-
-### Digitale Plattform Wirtschaft
+#### Wirtschaft
 
 ![](pic/economy.png)@style
 
@@ -375,9 +402,11 @@ Plattform auszurollen.”
 >
 > Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
-### Digitale Plattform Case Studies
 
-#### Facebook Case Study
+
+
+### Case Studies
+#### Facebook
 
 ![](pic/facebook1.png)@style
 ![](pic/facebook2.png)@style
@@ -404,20 +433,8 @@ Rückschau lässt sich immer leicht erkennen[…]”
 
 Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
-#### Business Plan Canvas
-
-##### todo
-
-“Bei Facebook hatte man sich dagegen entschieden, eine konkurrierende mobile
-Plattform zu Google Android oder Apple iOS zu entwickeln. In 2013 wurde
-„Facebook Home on Android“ ins Leben gerufen, um die Nutzung von Facebook auf
-mobilen Endgeräten zu erhöhen [CHAF]. Heutzutage bilden Mobile Services das
-primäre Geschäft von Facebook. Diesen Turnaround konnte Facebook nur durch die
-Weitsicht des Executive Managements realisieren. Bei Facebook hatte man erkannt,
-dass die damalige interne Unternehmenskonfiguration von Facebook nicht auf
-mobile Produkte und Dienste ausgerichtet war.”
-
-##### Macht von Facebook
+Macht von Facebook
+=====
 
 “Die Relevanz von Facebook als digitale Plattform ergibt sich alleine daraus,
 dass laut des amerikanischen Pew Research Centers 62 % der Amerikaner ihre
@@ -430,19 +447,98 @@ bezieht sich mit seiner Beobachtung im Wesentlichen auf die US-amerikanische
 Bevölkerung”
 
 
+
+
 #### UBER
 
 ![](pic/uber1.png)@style
 ![](pic/uber2.png)@style
 
 
-### The Next Education Plattform
 
-todo
+### Startup
 
-## Möglich Lösungen
+Start-up-Fabrik
+=====
+Sie sind die erfolgreichsten deutschen Investoren im Internet: die drei Brüder
+Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus Zalando bauten sie
+einen Milliardenkonzern auf. Wimdu und home24 sind weitere Firmen, bei denen sie
+die Fäden ziehen.
 
-### @IPFS & Die Probleme des Internets
+“Die Start-up-Fabrik „Rocket Internet“ der Samwer-Brüder hat eine ganz eigene
+Antwort auf die digitale Disruption gefunden. Sie entwickelten eine Methode, im
+Markt erfolgreiche digitale Geschäftsmodelle zu kopieren und über eine digitale
+Plattform auszurollen.
+
+Wichtige Entscheidungen für ein erfolgreiches Startup
+=====
+“Bei Facebook hatte man sich dagegen entschieden, eine konkurrierende mobile
+Plattform zu Google Android oder Apple iOS zu entwickeln. In 2013 wurde
+„Facebook Home on Android“ ins Leben gerufen, um die Nutzung von Facebook auf
+mobilen Endgeräten zu erhöhen [CHAF]. Heutzutage bilden Mobile Services das
+primäre Geschäft von Facebook. Diesen Turnaround konnte Facebook nur durch die
+Weitsicht des Executive Managements realisieren. Bei Facebook hatte man erkannt,
+dass die damalige interne Unternehmenskonfiguration von Facebook nicht auf
+mobile Produkte und Dienste ausgerichtet war.”
+
+
+
+
+#### Business Model Canvas
+##### Business Model Beispiel
+TODO
+
+##### Dein eigenes Plattform Startup
+Gruppenarbeit: Gründe ein Plattform Startup.
+
+
+
+
+
+
+## Digitale Plattformen von morgen
+### Web 3.0
+
+{{1}} **Semantic Web**
+
+    --{{1}}--
+Die nächste Entwicklung des Webs betrifft das Semantic Web. Das Semantic Web
+verbessert Web-Technologien, um Inhalte und Texte durch Suche und Analyse zu
+generieren, zu teilen und zu verbinden, basierend auf der Fähigkeit, die
+Bedeutung von Wörtern zu verstehen, und nicht auf Schlüsselwörtern oder Zahlen.
+
+
+{{2}} **Künstliche Intelligenz**
+
+    --{{2}}--
+Durch die Kombination dieser Fähigkeit mit der Verarbeitung natürlicher Sprache
+können Computer im Web 3.0 Informationen wie Menschen verstehen, um schnellere
+und relevantere Ergebnisse zu erzielen. Sie werden intelligenter, um die
+Bedürfnisse der Nutzer zu befriedigen.
+
+
+{{3}} **3D & Augmented Reality**
+
+    --{{3}}--
+Das dreidimensionale Design wird intensiv in Websites und Diensten im Web 3.0
+eingesetzt. Museumsführer, Computerspiele, E-Commerce, geografische
+Zusammenhänge usw. sind Beispiele, die 3D-Grafiken verwenden.
+
+{{4}} **Konnektivität**
+
+    --{{4}}--
+Mit Web 3.0 sind Informationen durch semantische Metadaten stärker miteinander
+verbunden (Semantic Web). Dadurch entwickelt sich die Benutzererfahrung zu einer
+weiteren Ebene der Konnektivität, die alle verfügbaren Informationen nutzt.
+
+{{5}} **Allgegenwärtigkeit**
+
+    --{{5}}--
+Die Inhalte sind über das Web 3.0 für mehrere Anwendungen zugänglich, jedes
+Gerät ist mit dem Web verbunden, die Dienste können überall genutzt werden.
+
+
+#### @IPFS & Die Probleme des Internets
 
     {{0-1}}
 > **InterPlanetary File System:** A peer-to-peer hypermedia protocol designed to
@@ -516,55 +612,39 @@ viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
 ********************************************************************************
 
-### Beaker Browser
+
+
+
+#### Hallo, IPFS!
+
+`$ curl -L https://nixos.org/nix/install | sh`
+
+`$ nix-shell -p ipfs`
+
+`$ ipfs daemon`
+
+`$ ipfs init`
+
+`ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme`
+
+`$ ipfs daemon`
+
+WebUI: http://127.0.0.1:5001/webui
+
+
+#### Beaker Browser
 
 !?[Building peer-to-peer apps with the Beaker Browser - Tara Vancil](https://www.youtube.com/watch?v=raUE23RKLvE)
 
 https://dat.foundation/
 
-### Morgen - Web 3.0
 
 
-{{1}} **Semantic Web**
-
-    --{{1}}--
-Die nächste Entwicklung des Webs betrifft das Semantic Web. Das Semantic Web
-verbessert Web-Technologien, um Inhalte und Texte durch Suche und Analyse zu
-generieren, zu teilen und zu verbinden, basierend auf der Fähigkeit, die
-Bedeutung von Wörtern zu verstehen, und nicht auf Schlüsselwörtern oder Zahlen.
 
 
-{{2}} **Künstliche Intelligenz**
-
-    --{{2}}--
-Durch die Kombination dieser Fähigkeit mit der Verarbeitung natürlicher Sprache
-können Computer im Web 3.0 Informationen wie Menschen verstehen, um schnellere
-und relevantere Ergebnisse zu erzielen. Sie werden intelligenter, um die
-Bedürfnisse der Nutzer zu befriedigen.
 
 
-{{3}} **3D & Augmented Reality**
-
-    --{{3}}--
-Das dreidimensionale Design wird intensiv in Websites und Diensten im Web 3.0
-eingesetzt. Museumsführer, Computerspiele, E-Commerce, geografische
-Zusammenhänge usw. sind Beispiele, die 3D-Grafiken verwenden.
-
-{{4}} **Konnektivität**
-
-    --{{4}}--
-Mit Web 3.0 sind Informationen durch semantische Metadaten stärker miteinander
-verbunden (Semantic Web). Dadurch entwickelt sich die Benutzererfahrung zu einer
-weiteren Ebene der Konnektivität, die alle verfügbaren Informationen nutzt.
-
-{{5}} **Allgegenwärtigkeit**
-
-    --{{5}}--
-Die Inhalte sind über das Web 3.0 für mehrere Anwendungen zugänglich, jedes
-Gerät ist mit dem Web verbunden, die Dienste können überall genutzt werden.
-
-
-# Todo
+#### Todo
 
 Wie ist das Internet/Web aufgebaut?
 ---
@@ -611,9 +691,18 @@ Plattformen Lehre:
 - OS-Gedanke LiaScript
 -
 
-## DWeb - The Decetralized Web
 
-## RTP - Browser to Browser Communcation
 
-# Notes
-Vergleiche wie man Airbnb, Uber, ... mithilfe von Blockchain offener gestaltet.
+
+#### DWeb - The Decetralized Web
+#### RTP - Browser to Browser Communcation
+#### Blockchain
+TODO Vergleiche wie man Airbnb, Uber, ... mithilfe von Blockchain offener gestaltet.
+
+
+
+
+
+
+### The Next Education Plattform
+TODO
