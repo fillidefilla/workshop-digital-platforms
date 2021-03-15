@@ -329,7 +329,7 @@ TODO: Begriffe Digital und Plattform
 
 
 
-### Digitale Plattformunternehmen
+### Plattformunternehmen
 
 --{{0}}--
 In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den digitalen Markt.
@@ -339,7 +339,7 @@ In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den 
 
 
 
-Kennst du eines der grössten Plattformunternehmen?
+Wie heissen die Big Five genannten US-amerikanischen Technologie-Unternehmen?
 
 [[solution]]
 <script>
