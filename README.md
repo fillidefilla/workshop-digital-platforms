@@ -32,6 +32,7 @@ comment: todo
 @MOOCs:   @abbr(MOOCs,Massive Open Online Courses)
 
 @style:   <!--style="width: 100%; max-width: 80vh; margin: 10px auto 20px; display: block;"-->
+
 -->
 
 # Die Macht der digitalen Plattformen
@@ -46,7 +47,6 @@ comment: todo
 [qr-code](https://raw.githubusercontent.com/fillidefilla/workshop-digital-platforms/master/README.md)
 
 ## Einleitung
-
 
 Die Digitalisierung verändert alles - wie wir leben und arbeiten. Wir sind
 längst in einer digitalisierten Welt angekommen. Wohnraum (Airbnb) und
@@ -76,7 +76,6 @@ ideas and test whether they have potential as a startup. Furthermore, we look at
 open-source platforms and how you can take part in the development of the
 platform.
 
-
 ## Internet
 
 Wie alt ist das Internet?
@@ -86,7 +85,7 @@ Wie alt ist das Internet?
     [( )] ca. 34 Jahre
     [(X)] über 50 Jahre
 
----
+
 
 Wann wurde die erste Email versandt?
 
@@ -94,12 +93,9 @@ Wann wurde die erste Email versandt?
     [( )] 30. Februar 1982
     [( )] 3. Oktober 1989
 
-
-
-
 ### 1969 - 1983 (@ARPAnet)
 
-* Dezentrales Netzwerk zur Verbindung von Großrechnern an US-amerikanischen
+- Dezentrales Netzwerk zur Verbindung von Großrechnern an US-amerikanischen
   Universitäten (ursprünglich):
 
   1. University of California, Los Angeles (UCLA)
@@ -107,35 +103,32 @@ Wann wurde die erste Email versandt?
   3. Stanford Research Institute (SRI International)
   4. University of Utah (UU))
 
-* Konzept:
+- Konzept:
 
   - "Intergalactic Computer Networt" wurde ursprünglich abgelehnt
   - ab 1969 finanzierung durch die DARPA
   - Verbindung über Telefonleitung
   - Paketvermittlung
 
-* ab 1973 auch in Europa
+- ab 1973 auch in Europa
 
-* Probleme:
+- Probleme:
 
   - Zumeist manuelle Adressverwaltung
   - Noch wenig Ausfalltolerant
   - Verknüpfung verschiedener Netze
 
-![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg "Karte des ARPA-Netzwerks im Jahre 1973")@style
-
-
+![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg "Karte des ARPA-Netzwerks im Jahre 1973")
 
 ### 1981 - 1993 (@TCP/@IP, @DNS)
 
-Wie funktioniert unser heutiges Internet?
-=========================================
+#### Wie funktioniert unser heutiges Internet?
 
 Kommunikation im Internet wird in unterschiedlichen Schichten (layer)
 organisiert. Dabei muss die folgende Abbildung von unten nach oben gelesen
 werden:
 
-``````````````
+```
 
    .---------------+---------+----------------------------------------.
    |               |         |  💻   |--( $ dig google.de )---->|  📖   |
@@ -148,7 +141,7 @@ werden:
    +---------------+---------+----------------------------------------'
    | 1. Netzzugang |  ...    | 🔌                                      |
    '---------------+---------+----------------------------------------'
-``````````````
+```
 
     --{{1}}--
 Die unterste Ebene beschreibt den direkten physischen Zugriff zu einem Netzwerk,
@@ -176,28 +169,21 @@ Eine zentrale Anwendung des Internets bilded das so genannte Domain Name System
 vereinfacht gesagt eine art Telefonbuch, es übersetzt die von Menschen leicht
 lesbaren Adressen wie www.google.de in @IP-Adressen.
 
-
-
-
-
-
 ## Web
 
-### 1989 - heute (@WWW)
+### 1989 - heute (WWW)
 
     --{{1}}--
 Das was wir vermeintlich Internet nennen ist das so genannte World Wide Web und
 wurde von Tim Berners-Lee zwischen 1989 und 1994 am @CERN entwickelt.
-*Mit seiner Vision, das Wissen der Menschheit durch Vernetzung und Dezentralisation frei zugänglich zu machen, revolutionierte Berners-Lee die Welt.*
+_Mit seiner Vision, das Wissen der Menschheit durch Vernetzung und Dezentralisation frei zugänglich zu machen, revolutionierte Berners-Lee die Welt._
 Das ursprüngliche Ziel dabei war es Forschungsergebnisse über das Internet
 dezentral zu organisieren, miteinander zu verknüpfen (über sogenannte
 Hyperlinks) und direkt abrufbar zu machen.
 
-
 > ![Tim Berners-Lee der Erfinder des World Wide Webs](https://live.staticflickr.com/8620/16662336315_21b5de0395_h.jpg)@style
 >
 > -- Tim Berners-Lee der Erfinder des World Wide Webs
-
 
     --{{2}}--
 Es bestand und besteht im Grunde aus zwei Teilen, einer Beschreibungssprache
@@ -210,17 +196,16 @@ erstellt.
     {{2}}
 1. @HTML: Hypertext Markup Language
 
-   ``` html
-   <!DOCTYPE html>
+   ```
    <html>
      <head>
        <title>Titel der Webseite</title>
-       <!-- weitere Kopfinformationen -->
-       <!-- Kommentare werden im Browser nicht angezeigt. -->
+       <-- weitere Kopfinformationen -->
+       <-- Kommentare werden im Browser nicht angezeigt. -->
      </head>
-     <body>
-       <p>Inhalt der Webseite</p>
-     </body>
+    <body>
+      <p>Inhalt der Webseite</p>
+    </body>
    </html>
    ```
 2. @HTTP: Hypertext Transfer Protocol
@@ -235,6 +220,8 @@ erstellt.
    ...
    ```
 
+
+
     --{{3}}--
 Der erste grafische Browser hieß ebenfalls
 [WorldWideWeb](https://de.wikipedia.org/wiki/WorldWideWeb) und wurde auch von
@@ -244,22 +231,17 @@ aber auch gleichzeitig ein Editor für @HTML Dokumente.
     {{3}}
 ![Screenshot von WorldWideWeb, dem ersten Webbrowser](https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png)@style
 
-
-
 ### Gopher
 
     --{{0}}--
+
 Man muss erwähnen, dass das es neben dem @WWW auch andere Versuche gab und gibt
 Informationen in strukturierter Art und Weise abzulegen und miteinander zu
 verknüpfen. [Gopher](https://de.wikipedia.org/wiki/Gopher) war/ist einer
 bekanntesten Kontrahenten der in vielen Punkten mit dem Ansatz von Tim
 Berners-Lee vergleichbar ist.
 
-
 ![Screenshot Fog-Browser](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipedia_Gopher_forg_v0.5.1.png "Der Wikipedia-Artikel in der englischsprachigen Wikipedia mit dem Browser forg")<!-- style="width: 100%" -->
-
-
-
 
 ### heute - Web 2.0
 
@@ -271,9 +253,7 @@ entworfen und entwickelt, wobei das @WWW ursprünglich nur den **freien** Zugrif
 auf Informationen bereitstellen sollte die von jedem **gleichberechtig**
 eingesehen und veröffentlicht werden können.
 
-
 <iframe src="https://internet-map.net" style="width: 100%; height: 82%"></iframe>
-
 
     --{{1}}--
 Das Internet ist zu schnell gewachsen, technisch für die meisten Leute viel zu
@@ -282,14 +262,11 @@ Webseiten wie „Amazon“ oder „eBay“ sehr kompfortabel abrufen und durchsu
 Aber diese "offenen", leicht zugänglichen Plattformen bilden nur die sichtbare
 Oberfläche des World Wide Webs.
 
-
-
-
 ### Websites / Web Plattformen
 
 <!-- data-type="barchart" -->
 | Site                | Daily Time on Site | Daily Pageviews per Visitor | % of Traffic From Search | Total Sites Linking In | Eigentümer                   | Beschreibung                   |
-| ------------------- | ------------------:| ---------------------------:| ------------------------:| ----------------------:| ---------------------------- | ------------------------------ |
+| ------------------- | -----------------: | --------------------------: | -----------------------: | ---------------------: | ---------------------------- | ------------------------------ |
 | Google.com          |              16.23 |                       17.48 |                   0.30 % |                1300441 | Google LLC                   | Suchmaschine                   |
 | Youtube.com         |              18.15 |                       10.13 |                  14.30 % |                 988820 | Google LLC                   | Videoportal                    |
 | Tmall.com           |               7.15 |                        3.98 |                   1.00 % |                   6212 | Alibaba Group                | Online-Marktplatz              |
@@ -346,26 +323,16 @@ Quellen:
 1. Alexa.com: [The top 500 sites on the web](https://www.alexa.com/topsites/)
 2. Wikipedia: [Liste der meistaufgerufenen Websites](https://de.wikipedia.org/wiki/Liste_der_meistaufgerufenen_Websites#cite_note-1)
 
-
-
-
-
-
 ## Digitale Plattformen
 
 TODO: Begriffe Digital und Plattform
-
-
 
 ### Plattformunternehmen
 
 --{{0}}--
 In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den digitalen Markt.
 
-
 ![](pic/digital-platform-bubbles.png)@style
-
-
 
 Wie heissen die Big Five genannten US-amerikanischen Technologie-Unternehmen?
 
@@ -387,18 +354,19 @@ for (let i =0; i< solutions.length; i++) {
 isSolved
 </script>
 
-
-
-
 #### Globaler Markt
 
---{{0}}--
-Gemessen am Börsenwert gibt es in Nordamerika mehr Plattformunternehmen, die Werte schaffen, als in allen anderen Regionen der Welt. Die Plattformunternehmen des homogenen Marktes in China wachsen schnell. Die Plattformunternehmen des fragmentierten Marktes in Europa besitzen nur weniger als ein Viertel des Wertes der nordamerikanischen Unternehmen dieser Art. Un auch die Regionen der Entwicklungsländer in Afrika und Lateinamerika liegen nicht weit zurück.
-
+    --{{0}}--
+Gemessen am Börsenwert gibt es in Nordamerika mehr Plattformunternehmen, die
+Werte schaffen, als in allen anderen Regionen der Welt. Die Plattformunternehmen
+des homogenen Marktes in China wachsen schnell. Die Plattformunternehmen des
+fragmentierten Marktes in Europa besitzen nur weniger als ein Viertel des Wertes
+der nordamerikanischen Unternehmen dieser Art. Un auch die Regionen der
+Entwicklungsländer in Afrika und Lateinamerika liegen nicht weit zurück.
 
 <!-- data-title="Worldwide market capitalisation of digital platforms (e.g. Uber, Facebook etc) as of 2015" data-show -->
 | Region             | US Dollar (Milliarde) |
-| ------------------ | ---------------------:|
+| ------------------ | --------------------: |
 | Vereinigte Staaten |                3350.0 |
 | Asien              |                 854.0 |
 | Europa             |                 128.0 |
@@ -406,18 +374,12 @@ Gemessen am Börsenwert gibt es in Nordamerika mehr Plattformunternehmen, die We
 | Süd Amerika        |                  13.5 |
 
 
-<!-- ![](pic/bubbles.png)@style -->
-
 Quelle:
 Peter Evants, Center for Global Enterprise
-
-
-
 
 #### Wirtschaft
 
 ![](pic/economy.png)@style
-
 
 > “Im Gegensatz zu vielen anderen Autoren erkennt der bereits zitierte
 > Internetblogger Sascha Lobo die Sprachnot der Digitalisierung, wenn er
@@ -430,10 +392,8 @@ Peter Evants, Center for Global Enterprise
 >
 > Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
-
-
-
 ### Case Studies
+
 #### Facebook
 
 ![](pic/facebook1.png)@style
@@ -461,8 +421,7 @@ Rückschau lässt sich immer leicht erkennen[…]”
 
 Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
-Macht von Facebook
-=====
+# Macht von Facebook
 
 “Die Relevanz von Facebook als digitale Plattform ergibt sich alleine daraus,
 dass laut des amerikanischen Pew Research Centers 62 % der Amerikaner ihre
@@ -474,20 +433,15 @@ Twitter und Facebook als Kommunikationsmittel und Nachrichtenmedium“ [PHI]. Er
 bezieht sich mit seiner Beobachtung im Wesentlichen auf die US-amerikanische
 Bevölkerung”
 
-
-
-
 #### UBER
 
 ![](pic/uber1.png)@style
 ![](pic/uber2.png)@style
 
-
-
 ### Startup
 
-Start-up-Fabrik
-=====
+# Start-up-Fabrik
+
 Sie sind die erfolgreichsten deutschen Investoren im Internet: die drei Brüder
 Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus Zalando bauten sie
 einen Milliardenkonzern auf. Wimdu und home24 sind weitere Firmen, bei denen sie
@@ -498,8 +452,8 @@ Antwort auf die digitale Disruption gefunden. Sie entwickelten eine Methode, im
 Markt erfolgreiche digitale Geschäftsmodelle zu kopieren und über eine digitale
 Plattform auszurollen.
 
-Wichtige Entscheidungen für ein erfolgreiches Startup
-=====
+# Wichtige Entscheidungen für ein erfolgreiches Startup
+
 “Bei Facebook hatte man sich dagegen entschieden, eine konkurrierende mobile
 Plattform zu Google Android oder Apple iOS zu entwickeln. In 2013 wurde
 „Facebook Home on Android“ ins Leben gerufen, um die Nutzung von Facebook auf
@@ -509,45 +463,42 @@ Weitsicht des Executive Managements realisieren. Bei Facebook hatte man erkannt,
 dass die damalige interne Unternehmenskonfiguration von Facebook nicht auf
 mobile Produkte und Dienste ausgerichtet war.”
 
-
-
-
 #### Business Model Canvas
+
 ##### Business Model Beispiel
+
 TODO
 
 ##### Dein eigenes Plattform Startup
+
 Gruppenarbeit: Gründe ein Plattform Startup.
 
-
-
-
-
-
 ## Digitale Plattformen von morgen
+
 ### Web 3.0
 
 {{1}} **Semantic Web**
 
     --{{1}}--
+
 Die nächste Entwicklung des Webs betrifft das Semantic Web. Das Semantic Web
 verbessert Web-Technologien, um Inhalte und Texte durch Suche und Analyse zu
 generieren, zu teilen und zu verbinden, basierend auf der Fähigkeit, die
 Bedeutung von Wörtern zu verstehen, und nicht auf Schlüsselwörtern oder Zahlen.
 
-
 {{2}} **Künstliche Intelligenz**
 
     --{{2}}--
+
 Durch die Kombination dieser Fähigkeit mit der Verarbeitung natürlicher Sprache
 können Computer im Web 3.0 Informationen wie Menschen verstehen, um schnellere
 und relevantere Ergebnisse zu erzielen. Sie werden intelligenter, um die
 Bedürfnisse der Nutzer zu befriedigen.
 
-
 {{3}} **3D & Augmented Reality**
 
     --{{3}}--
+
 Das dreidimensionale Design wird intensiv in Websites und Diensten im Web 3.0
 eingesetzt. Museumsführer, Computerspiele, E-Commerce, geografische
 Zusammenhänge usw. sind Beispiele, die 3D-Grafiken verwenden.
@@ -555,6 +506,7 @@ Zusammenhänge usw. sind Beispiele, die 3D-Grafiken verwenden.
 {{4}} **Konnektivität**
 
     --{{4}}--
+
 Mit Web 3.0 sind Informationen durch semantische Metadaten stärker miteinander
 verbunden (Semantic Web). Dadurch entwickelt sich die Benutzererfahrung zu einer
 weiteren Ebene der Konnektivität, die alle verfügbaren Informationen nutzt.
@@ -562,42 +514,42 @@ weiteren Ebene der Konnektivität, die alle verfügbaren Informationen nutzt.
 {{5}} **Allgegenwärtigkeit**
 
     --{{5}}--
+
 Die Inhalte sind über das Web 3.0 für mehrere Anwendungen zugänglich, jedes
 Gerät ist mit dem Web verbunden, die Dienste können überall genutzt werden.
-
 
 #### @IPFS & Die Probleme des Internets
 
     {{0-1}}
+
 > **InterPlanetary File System:** A peer-to-peer hypermedia protocol designed to
 > make the web faster, safer, and more open.
 >
 > -- Quelle: https://ipfs.io
 
-
-
     {{1-2}}
-********************************************************************************
 
-Uneffizient und teuer
-=====================
+---
+
+# Uneffizient und teuer
 
     --{{1}}--
+
 Daten werden zumeinst vollständig von einem Server geladen, obwohl das teilweise
 und gleichzeitige laden von mehreren Peers resourcensparend und schneller ist.
 
 ![](https://ipfs.io/images/ipfs-illustration-http.svg)@style
 
-********************************************************************************
-
+---
 
     {{2-3}}
-********************************************************************************
 
-Es kann die Geschichte der Menschheit nicht bewahren
-====================================================
+---
+
+# Es kann die Geschichte der Menschheit nicht bewahren
 
     --{{2}}--
+
 Webseiten kommen und gehen, die durchschnittliche Lebensdauer einer Webseite
 beträgt 100 Tage. Das Peer-to-Peer System von @IPFS speichert auch die
 vorhergehenden Versionen. Falls ein Peer ausfällt oder Daten aktualisiert
@@ -605,15 +557,13 @@ werden, so können andere Seiten immernoch auf die alten Inhalte zugreifen.
 
 ![](https://ipfs.io/images/ipfs-illustration-history.svg)@style
 
-********************************************************************************
-
-
+---
 
     {{3-4}}
-********************************************************************************
 
-Zentralisiert und limitierend
-=============================
+---
+
+# Zentralisiert und limitierend
 
 --{{3}}--
 Das Internet hat Innovationen beschleunigt und gewährt allen Menschen
@@ -622,15 +572,13 @@ Kontrollen bedroht.
 
 ![](https://ipfs.io/images/ipfs-illustration-centralized.svg)@style
 
-********************************************************************************
-
-
+---
 
     {{4-5}}
-********************************************************************************
 
-Abhängig von der Infrastruktur
-==============================
+---
+
+# Abhängig von der Infrastruktur
 
 Durch seine zentralisierte Infrastruktur ist das Internet auch sehr
 fehleranfällig. Bricht ein wichtiger Knotenpunkt weg, dann können vermutlich
@@ -638,10 +586,7 @@ viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
 ![](https://ipfs.io/images/ipfs-illustration-network.svg)@style
 
-********************************************************************************
-
-
-
+---
 
 #### Hallo, IPFS!
 
@@ -659,23 +604,15 @@ viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
 WebUI: http://127.0.0.1:5001/webui
 
-
 #### Beaker Browser
 
 !?[Building peer-to-peer apps with the Beaker Browser - Tara Vancil](https://www.youtube.com/watch?v=raUE23RKLvE)
 
 https://dat.foundation/
 
-
-
-
-
-
-
 #### Todo
 
-Wie ist das Internet/Web aufgebaut?
----
+## Wie ist das Internet/Web aufgebaut?
 
 - Das Internet
 - Das klassische Web und Web3.0
@@ -683,16 +620,12 @@ Wie ist das Internet/Web aufgebaut?
 
   - Web und sein neustes Projekt SOLID
 
-
-
-Zentralistisch vs. Dezentral
----
+## Zentralistisch vs. Dezentral
 
 - Dezentrale Plattformen und wieso sie so aufgebaut sind
 - Verteilte Ansätze Protokolle: DWeb, IPFS, Bitcoin, (Blockchain), Ethereum
 
-Macht der digitalen Plattformen
----
+## Macht der digitalen Plattformen
 
 - Startup Business Model für eine digitale Plattform
 
@@ -700,18 +633,14 @@ Macht der digitalen Plattformen
 
 - Was haben google, Apple, facebook und Amazon alles aufgekauf?
 
-
-Beispiel
----
+## Beispiel
 
 - Mastadon zum Testen eines decentralen Twitter
 - IPFS Client zeigen
 - https://matrix.org/
 - openEngiadina.net
 
-
-Plattformen Lehre:
----
+## Plattformen Lehre:
 
 - Moodle & Co.
 - Udacity
@@ -719,18 +648,13 @@ Plattformen Lehre:
 - OS-Gedanke LiaScript
 -
 
-
-
-
 #### DWeb - The Decetralized Web
+
 #### RTP - Browser to Browser Communcation
+
 #### Blockchain
+
 TODO Vergleiche wie man Airbnb, Uber, ... mithilfe von Blockchain offener gestaltet.
-
-
-
-
-
 
 ### The Next (Proprietary) Education Plattform
 
@@ -738,15 +662,15 @@ TODO Vergleiche wie man Airbnb, Uber, ... mithilfe von Blockchain offener gestal
 
 @MOOCs:
 
-* [Coursera](https://www.coursera.org/): Internationale MOOC-Plattform aus den USA
+- [Coursera](https://www.coursera.org/): Internationale MOOC-Plattform aus den USA
 
-* [edX](https://www.edx.org): Ursprünglich kostenlose Kooperative
+- [edX](https://www.edx.org): Ursprünglich kostenlose Kooperative
   E-Learning-Plattform des MIT und der Harvard University.
 
-* [Udacity](https://www.udacity.com): Kommerzielle US-amerikanische Plattform,
+- [Udacity](https://www.udacity.com): Kommerzielle US-amerikanische Plattform,
   die vor allem Kurse im Informatikbereich anbietet.
 
-* [Udemy](https://www.udemy.com): Eine kommerzielle Plattform, die Kurse in
+- [Udemy](https://www.udemy.com): Eine kommerzielle Plattform, die Kurse in
   diversen Bereichen anbietet.
 
-* ... viele weitere
+- ... viele weitere
