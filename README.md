@@ -29,24 +29,52 @@ comment: todo
 @IPFS:    @abbr(IPFS,InterPlanetary File System)
 @WebDAV:  @abbr(WebDAV,Web-based Distributed Authoring and Versioning)
 
+@MOOCs:   @abbr(MOOCs,Massive Open Online Courses)
 
 @style:   <!--style="width: 100%; max-width: 80vh; margin: 10px auto 20px; display: block;"-->
 -->
 
 # Die Macht der digitalen Plattformen
-Die Digitalisierung verändert alles - wie wir leben und arbeiten. Wir sind längst in einer digitalisierten Welt angekommen. Wohnraum (Airbnb) und Fahrservice (Uber) werden per App geteilt; Freunde/Partner finden sich über eine App (Tinder) - Der digitale Wandel sorgt nicht nur für neue Dienste und Produkte, sondern auch für einen Umbruch der traditionellen Ökonomie.
 
-Was für digitale Plattformen gibt es, wie sind diese aufgebaut und wie beeinflussen sie unser Leben? Wie meistert das Engadin als Randregion den digitalen Wandel? Wir vergleichen bestehende digitale Plattformen und schauen hinter die Kulisse. Wir skizzieren Ideen und testen, ob diese als Startup Potential haben. Weiter schauen wir uns (offene) open-source Plattformen an und wie du mit der Entwicklung mithelfen kannst.
+|         | Fabio Fill                                         | André Dietrich                                         |
+| ------- | -------------------------------------------------- | ------------------------------------------------------ |
+| WebSite |                                                    | https://aizac.herokuapp.com                            |
+| GitHub  | https://github.com/fillidefilla                    | https://github.com/andre-dietrich                      |
+| Twitter | [\@FilliDeFilla](https://twitter.com/FilliDeFilla) | [\@andre-dietrich](https://twitter.com/andre-dietrich) |
+| eMail   |                                                    | LiaScript@web.de                                       |
+
+[qr-code](https://raw.githubusercontent.com/fillidefilla/workshop-digital-platforms/master/README.md)
+
+## Einleitung
+
+
+Die Digitalisierung verändert alles - wie wir leben und arbeiten. Wir sind
+längst in einer digitalisierten Welt angekommen. Wohnraum (Airbnb) und
+Fahrservice (Uber) werden per App geteilt; Freunde/Partner finden sich über eine
+App (Tinder) - Der digitale Wandel sorgt nicht nur für neue Dienste und
+Produkte, sondern auch für einen Umbruch der traditionellen Ökonomie.
+
+Was für digitale Plattformen gibt es, wie sind diese aufgebaut und wie
+beeinflussen sie unser Leben? Wie meistert das Engadin als Randregion den
+digitalen Wandel? Wir vergleichen bestehende digitale Plattformen und schauen
+hinter die Kulisse. Wir skizzieren Ideen und testen, ob diese als Startup
+Potential haben. Weiter schauen wir uns (offene) open-source Plattformen an und
+wie du mit der Entwicklung mithelfen kannst.
 
 ---
 
-Digitisation is changing everything - how we live and work. We have long arrived in a digitised world. Living space (Airbnb) and chauffeur service (Uber) are shared via an app; Friends / Partners can be found via an app (Tinder) - The digital transformation provides for not only new services and products, but also a change of the traditional economy.
+Digitisation is changing everything - how we live and work. We have long arrived
+in a digitised world. Living space (Airbnb) and chauffeur service (Uber) are
+shared via an app; Friends / Partners can be found via an app (Tinder) - The
+digital transformation provides for not only new services and products, but also
+a change of the traditional economy.
 
-What are the digital platforms, how are they structured, and how do they influence our lives? How does the Engadin master the digital transformation? We compare existing digital platforms and look behind the scenes. We outline your ideas and test whether they have potential as a startup. Furthermore, we look at open-source platforms and how you can take part in the development of the platform.
-
-
-
-
+What are the digital platforms, how are they structured, and how do they
+influence our lives? How does the Engadin master the digital transformation? We
+compare existing digital platforms and look behind the scenes. We outline your
+ideas and test whether they have potential as a startup. Furthermore, we look at
+open-source platforms and how you can take part in the development of the
+platform.
 
 
 ## Internet
@@ -95,7 +123,6 @@ Wann wurde die erste Email versandt?
   - Verknüpfung verschiedener Netze
 
 ![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg "Karte des ARPA-Netzwerks im Jahre 1973")@style
-
 
 
 
@@ -155,6 +182,7 @@ lesbaren Adressen wie www.google.de in @IP-Adressen.
 
 
 ## Web
+
 ### 1989 - heute (@WWW)
 
     --{{1}}--
@@ -325,6 +353,7 @@ Quellen:
 
 
 ## Digitale Plattformen
+
 TODO: Begriffe Digital und Plattform
 
 
@@ -704,5 +733,21 @@ TODO Vergleiche wie man Airbnb, Uber, ... mithilfe von Blockchain offener gestal
 
 
 
-### The Next Education Plattform
-TODO
+### The Next (Proprietary) Education Plattform
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/cb/MOOC_poster_mathplourde.jpg)@style
+
+@MOOCs:
+
+* [Coursera](https://www.coursera.org/): Internationale MOOC-Plattform aus den USA
+
+* [edX](https://www.edx.org): Ursprünglich kostenlose Kooperative
+  E-Learning-Plattform des MIT und der Harvard University.
+
+* [Udacity](https://www.udacity.com): Kommerzielle US-amerikanische Plattform,
+  die vor allem Kurse im Informatikbereich anbietet.
+
+* [Udemy](https://www.udemy.com): Eine kommerzielle Plattform, die Kurse in
+  diversen Bereichen anbietet.
+
+* ... viele weitere
