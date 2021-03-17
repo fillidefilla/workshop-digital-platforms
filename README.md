@@ -246,7 +246,6 @@ aber auch gleichzeitig ein Editor für @HTML Dokumente.
 
 
 
-
 ### Gopher
 
     --{{0}}--
