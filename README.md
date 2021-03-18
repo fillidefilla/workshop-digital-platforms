@@ -636,7 +636,7 @@ Durch seine zentralisierte Infrastruktur ist das Internet auch sehr
 fehleranfällig. Bricht ein wichtiger Knotenpunkt weg, dann können vermutlich
 viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
-![](https://ipfs.io/images/ipfs-illustration-network.svg)<-- style="width: 100%" -->
+![](https://ipfs.io/images/ipfs-illustration-network.svg)<!-- style="width: 100%" -->
 
 ********************************************************************************
 
