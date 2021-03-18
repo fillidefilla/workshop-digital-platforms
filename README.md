@@ -31,7 +31,7 @@ comment: todo
 
 @MOOCs:   @abbr(MOOCs,Massive Open Online Courses)
 
-@style:   <!--style="width: 100%; max-width: 80vh; margin: 10px auto 20px; display: block;"-->
+@style:   <!--style="width: 100%; max-width: 80vh;"-->
 
 -->
 
@@ -86,6 +86,7 @@ Wie alt ist das Internet?
     [(X)] über 50 Jahre
 
 
+---
 
 Wann wurde die erste Email versandt?
 
@@ -93,9 +94,9 @@ Wann wurde die erste Email versandt?
     [( )] 30. Februar 1982
     [( )] 3. Oktober 1989
 
-### 1969 - 1983 (@ARPAnet)
+### 1969 - 1983 (ARPAnet)
 
-- Dezentrales Netzwerk zur Verbindung von Großrechnern an US-amerikanischen
+* Dezentrales Netzwerk zur Verbindung von Großrechnern an US-amerikanischen
   Universitäten (ursprünglich):
 
   1. University of California, Los Angeles (UCLA)
@@ -103,44 +104,44 @@ Wann wurde die erste Email versandt?
   3. Stanford Research Institute (SRI International)
   4. University of Utah (UU))
 
-- Konzept:
+* Konzept:
 
-  - "Intergalactic Computer Networt" wurde ursprünglich abgelehnt
-  - ab 1969 finanzierung durch die DARPA
-  - Verbindung über Telefonleitung
-  - Paketvermittlung
+  * "Intergalactic Computer Networt" wurde ursprünglich abgelehnt
+  * ab 1969 finanzierung durch die DARPA
+  * Verbindung über Telefonleitung
+  * Paketvermittlung
 
-- ab 1973 auch in Europa
+* ab 1973 auch in Europa
 
-- Probleme:
+* Probleme:
 
-  - Zumeist manuelle Adressverwaltung
-  - Noch wenig Ausfalltolerant
-  - Verknüpfung verschiedener Netze
+  * Zumeist manuelle Adressverwaltung
+  * Noch wenig Ausfalltolerant
+  * Verknüpfung verschiedener Netze
 
-![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg "Karte des ARPA-Netzwerks im Jahre 1973")
+{{1}}
+![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg)@style
 
-### 1981 - 1993 (@TCP/@IP, @DNS)
 
-#### Wie funktioniert unser heutiges Internet?
+### 1981 - 1993 (TCP/IP, DNS)
+
 
 Kommunikation im Internet wird in unterschiedlichen Schichten (layer)
 organisiert. Dabei muss die folgende Abbildung von unten nach oben gelesen
 werden:
 
-```
-
-   .---------------+---------+----------------------------------------.
-   |               |         |  💻   |--( $ dig google.de )---->|  📖   |
-   | 4. Anwendung  |  "@DNS" |      |                          |      |
-   |               |         |      |<-----( 216.58.212.131 )--|      |
-   +---------------+---------+----------------------------------------+
-   | 3. Transport  |  "@TCP" | [📫  Rechner1] <-- 📨  --> [📬  Rechner2] |
-   +---------------+---------+----------------------------------------+
-   | 2. Internet   |  "@IP"  | 192.0.2.42 / 2001:db8:34e:...:370:7347 |
-   +---------------+---------+----------------------------------------'
-   | 1. Netzzugang |  ...    | 🔌                                      |
-   '---------------+---------+----------------------------------------'
+```ascii
+.-------------------+---------+----------------------------------------.
+|                   |         |  💻   |--( $ host google.de )--->|  📖   |
+| "{4}{Anwendung}"  |  "@DNS" |      |                          |      |
+|                   |         |      |<-----( 216.58.212.131 )--|      |
++-------------------+---------+----------------------------------------+
+| "{3}{Transport}"  |  "@TCP" | [📫  Rechner1] <-- 📨  --> [📬  Rechner2] |
++-------------------+---------+----------------------------------------+
+| "{2}{Internet}"   |  "@IP"  | 192.0.2.42 / 2001:db8:34e:...:370:7347 |
++-------------------+---------+----------------------------------------+
+| "{1}{Netzzugang}" |  ...    | 🔌                                      |
+'-------------------+---------+----------------------------------------'
 ```
 
     --{{1}}--
@@ -169,9 +170,25 @@ Eine zentrale Anwendung des Internets bilded das so genannte Domain Name System
 vereinfacht gesagt eine art Telefonbuch, es übersetzt die von Menschen leicht
 lesbaren Adressen wie www.google.de in @IP-Adressen.
 
+    {{5}}
+*******************************************************************************
+
+Aufgabe
+=======
+
+Versucht die @IP Adresse von [Google.com](https://google.com) herauszufinden,
+öffnet dafür eine Konsole/Terminal/... und verwendet entweder `host` oder `dig`.
+Eure @IP Addresse könnt ihr danach direkt im Browser als URL angeben und schauen
+was passiert.
+
+
+*******************************************************************************
+
 ## Web
 
-### 1989 - heute (WWW)
+![World Wide Web on disket gif](https://media.giphy.com/media/Zlnjdu4pkcJTW/giphy.gif)
+
+### 1989 - WWW
 
     --{{1}}--
 Das was wir vermeintlich Internet nennen ist das so genannte World Wide Web und
@@ -181,6 +198,7 @@ Das ursprüngliche Ziel dabei war es Forschungsergebnisse über das Internet
 dezentral zu organisieren, miteinander zu verknüpfen (über sogenannte
 Hyperlinks) und direkt abrufbar zu machen.
 
+{{0-2}}
 > ![Tim Berners-Lee der Erfinder des World Wide Webs](https://live.staticflickr.com/8620/16662336315_21b5de0395_h.jpg)@style
 >
 > -- Tim Berners-Lee der Erfinder des World Wide Webs
@@ -193,18 +211,18 @@ _Oder wie es früher genannt wurde, Hypertext-Dokumenten_
 Ursprünglich wurden Webseiten noch in dieser textuellen Form gelesen und
 erstellt.
 
-    {{2}}
+    {{2-3}}
 1. @HTML: Hypertext Markup Language
 
-   ```
+   ``` text
    <html>
-     <head>
-       <title>Titel der Webseite</title>
-       <-- weitere Kopfinformationen -->
-       <-- Kommentare werden im Browser nicht angezeigt. -->
-     </head>
+    <head>
+     <title> Titel der Webseite </title>
+     <-- weitere Kopfinformationen -->
+     <-- Kommentare werden im Browser nicht angezeigt. -->
+    </head>
     <body>
-      <p>Inhalt der Webseite</p>
+     <p>Inhalt der Webseite</p>
     </body>
    </html>
    ```
@@ -231,17 +249,7 @@ aber auch gleichzeitig ein Editor für @HTML Dokumente.
     {{3}}
 ![Screenshot von WorldWideWeb, dem ersten Webbrowser](https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png)@style
 
-### Gopher
 
-    --{{0}}--
-
-Man muss erwähnen, dass das es neben dem @WWW auch andere Versuche gab und gibt
-Informationen in strukturierter Art und Weise abzulegen und miteinander zu
-verknüpfen. [Gopher](https://de.wikipedia.org/wiki/Gopher) war/ist einer
-bekanntesten Kontrahenten der in vielen Punkten mit dem Ansatz von Tim
-Berners-Lee vergleichbar ist.
-
-![Screenshot Fog-Browser](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipedia_Gopher_forg_v0.5.1.png "Der Wikipedia-Artikel in der englischsprachigen Wikipedia mit dem Browser forg")<!-- style="width: 100%" -->
 
 ### heute - Web 2.0
 
@@ -323,36 +331,40 @@ Quellen:
 1. Alexa.com: [The top 500 sites on the web](https://www.alexa.com/topsites/)
 2. Wikipedia: [Liste der meistaufgerufenen Websites](https://de.wikipedia.org/wiki/Liste_der_meistaufgerufenen_Websites#cite_note-1)
 
+### Quiz
+
+Todo
+
 ## Digitale Plattformen
 
 TODO: Begriffe Digital und Plattform
 
 ### Plattformunternehmen
 
---{{0}}--
-In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den digitalen Markt.
+    --{{0}}--
+In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den
+digitalen Markt.
 
+    {{0-1}}
 ![](pic/digital-platform-bubbles.png)@style
+
+
+    {{1}}
+********************************************************************************
 
 Wie heissen die Big Five genannten US-amerikanischen Technologie-Unternehmen?
 
-[[solution]]
-<script>
-let solutions = ["solution", "apple", "microsoft", "google", "amazon", "facebook"]
+    [[X]] Apple
+    [[X]] Microsoft
+    [[ ]] Wikipedia
+    [[X]] Amazon
+    [[ ]] eBay
+    [[X]] Facebook
+    [[X]] Google
+    [[ ]] Sesamstraße
 
-let str = "@input".trim().toLocaleLowerCase()
+********************************************************************************
 
-let isSolved = false
-
-for (let i =0; i< solutions.length; i++) {
-  if (str==solutions[i]) {
-    isSolved = true
-    break
-  }
-}
-
-isSolved
-</script>
 
 #### Globaler Markt
 
@@ -421,7 +433,8 @@ Rückschau lässt sich immer leicht erkennen[…]”
 
 Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
-# Macht von Facebook
+Macht von Facebook
+==================
 
 “Die Relevanz von Facebook als digitale Plattform ergibt sich alleine daraus,
 dass laut des amerikanischen Pew Research Centers 62 % der Amerikaner ihre
@@ -440,7 +453,8 @@ Bevölkerung”
 
 ### Startup
 
-# Start-up-Fabrik
+Start-up-Fabrik
+===============
 
 Sie sind die erfolgreichsten deutschen Investoren im Internet: die drei Brüder
 Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus Zalando bauten sie
@@ -452,7 +466,8 @@ Antwort auf die digitale Disruption gefunden. Sie entwickelten eine Methode, im
 Markt erfolgreiche digitale Geschäftsmodelle zu kopieren und über eine digitale
 Plattform auszurollen.
 
-# Wichtige Entscheidungen für ein erfolgreiches Startup
+Wichtige Entscheidungen für ein erfolgreiches Startup
+=====================================================
 
 “Bei Facebook hatte man sich dagegen entschieden, eine konkurrierende mobile
 Plattform zu Google Android oder Apple iOS zu entwickeln. In 2013 wurde
@@ -480,7 +495,6 @@ Gruppenarbeit: Gründe ein Plattform Startup.
 {{1}} **Semantic Web**
 
     --{{1}}--
-
 Die nächste Entwicklung des Webs betrifft das Semantic Web. Das Semantic Web
 verbessert Web-Technologien, um Inhalte und Texte durch Suche und Analyse zu
 generieren, zu teilen und zu verbinden, basierend auf der Fähigkeit, die
@@ -489,7 +503,6 @@ Bedeutung von Wörtern zu verstehen, und nicht auf Schlüsselwörtern oder Zahle
 {{2}} **Künstliche Intelligenz**
 
     --{{2}}--
-
 Durch die Kombination dieser Fähigkeit mit der Verarbeitung natürlicher Sprache
 können Computer im Web 3.0 Informationen wie Menschen verstehen, um schnellere
 und relevantere Ergebnisse zu erzielen. Sie werden intelligenter, um die
@@ -498,7 +511,6 @@ Bedürfnisse der Nutzer zu befriedigen.
 {{3}} **3D & Augmented Reality**
 
     --{{3}}--
-
 Das dreidimensionale Design wird intensiv in Websites und Diensten im Web 3.0
 eingesetzt. Museumsführer, Computerspiele, E-Commerce, geografische
 Zusammenhänge usw. sind Beispiele, die 3D-Grafiken verwenden.
@@ -506,7 +518,6 @@ Zusammenhänge usw. sind Beispiele, die 3D-Grafiken verwenden.
 {{4}} **Konnektivität**
 
     --{{4}}--
-
 Mit Web 3.0 sind Informationen durch semantische Metadaten stärker miteinander
 verbunden (Semantic Web). Dadurch entwickelt sich die Benutzererfahrung zu einer
 weiteren Ebene der Konnektivität, die alle verfügbaren Informationen nutzt.
@@ -514,42 +525,40 @@ weiteren Ebene der Konnektivität, die alle verfügbaren Informationen nutzt.
 {{5}} **Allgegenwärtigkeit**
 
     --{{5}}--
-
 Die Inhalte sind über das Web 3.0 für mehrere Anwendungen zugänglich, jedes
 Gerät ist mit dem Web verbunden, die Dienste können überall genutzt werden.
 
-#### @IPFS & Die Probleme des Internets
+#### IPFS & Die Probleme des Internets
 
     {{0-1}}
-
 > **InterPlanetary File System:** A peer-to-peer hypermedia protocol designed to
 > make the web faster, safer, and more open.
 >
 > -- Quelle: https://ipfs.io
 
+
     {{1-2}}
+********************************************************************************
 
----
-
-# Uneffizient und teuer
+Uneffizient und teuer
+=====================
 
     --{{1}}--
-
 Daten werden zumeinst vollständig von einem Server geladen, obwohl das teilweise
 und gleichzeitige laden von mehreren Peers resourcensparend und schneller ist.
 
 ![](https://ipfs.io/images/ipfs-illustration-http.svg)@style
 
----
+********************************************************************************
+
 
     {{2-3}}
+********************************************************************************
 
----
-
-# Es kann die Geschichte der Menschheit nicht bewahren
+Es kann die Geschichte der Menschheit nicht bewahren
+====================================================
 
     --{{2}}--
-
 Webseiten kommen und gehen, die durchschnittliche Lebensdauer einer Webseite
 beträgt 100 Tage. Das Peer-to-Peer System von @IPFS speichert auch die
 vorhergehenden Versionen. Falls ein Peer ausfällt oder Daten aktualisiert
@@ -557,28 +566,30 @@ werden, so können andere Seiten immernoch auf die alten Inhalte zugreifen.
 
 ![](https://ipfs.io/images/ipfs-illustration-history.svg)@style
 
----
+********************************************************************************
+
 
     {{3-4}}
+********************************************************************************
 
----
+Zentralisiert und limitierend
+=============================
 
-# Zentralisiert und limitierend
-
---{{3}}--
+    --{{3}}--
 Das Internet hat Innovationen beschleunigt und gewährt allen Menschen
 gleichermaßen Zugriff auf Wissen, jedoch wird diese Freiheit durch mehr und mehr
 Kontrollen bedroht.
 
 ![](https://ipfs.io/images/ipfs-illustration-centralized.svg)@style
 
----
+********************************************************************************
+
 
     {{4-5}}
+********************************************************************************
 
----
-
-# Abhängig von der Infrastruktur
+Abhängig von der Infrastruktur
+==============================
 
 Durch seine zentralisierte Infrastruktur ist das Internet auch sehr
 fehleranfällig. Bricht ein wichtiger Knotenpunkt weg, dann können vermutlich
@@ -586,75 +597,26 @@ viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
 ![](https://ipfs.io/images/ipfs-illustration-network.svg)@style
 
----
+********************************************************************************
 
-#### Hallo, IPFS!
+##### Hallo IPFS!
 
-`$ curl -L https://nixos.org/nix/install | sh`
+{{1}} `$ curl -L https://nixos.org/nix/install | sh`
 
-`$ nix-shell -p ipfs`
+{{2}} `$ nix-shell -p ipfs`
 
-`$ ipfs daemon`
+{{3}} `$ ipfs daemon`
 
-`$ ipfs init`
+{{4}} `$ ipfs init`
 
-`ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme`
+{{5}} `$ ipfs cat /ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc/readme`
 
-`$ ipfs daemon`
+{{6}} `$ ipfs daemon`
 
-WebUI: http://127.0.0.1:5001/webui
+{{7}}
+WebUI: [http://127.0.0.1:5001/webui](http://127.0.0.1:5001/webui)
 
-#### Beaker Browser
 
-!?[Building peer-to-peer apps with the Beaker Browser - Tara Vancil](https://www.youtube.com/watch?v=raUE23RKLvE)
-
-https://dat.foundation/
-
-#### Todo
-
-## Wie ist das Internet/Web aufgebaut?
-
-- Das Internet
-- Das klassische Web und Web3.0
-- Kurze geschichte & Arpa und www by Tim Berners-Lee
-
-  - Web und sein neustes Projekt SOLID
-
-## Zentralistisch vs. Dezentral
-
-- Dezentrale Plattformen und wieso sie so aufgebaut sind
-- Verteilte Ansätze Protokolle: DWeb, IPFS, Bitcoin, (Blockchain), Ethereum
-
-## Macht der digitalen Plattformen
-
-- Startup Business Model für eine digitale Plattform
-
-  - Monopole vs offene Systeme
-
-- Was haben google, Apple, facebook und Amazon alles aufgekauf?
-
-## Beispiel
-
-- Mastadon zum Testen eines decentralen Twitter
-- IPFS Client zeigen
-- https://matrix.org/
-- openEngiadina.net
-
-## Plattformen Lehre:
-
-- Moodle & Co.
-- Udacity
-- Udemy
-- OS-Gedanke LiaScript
--
-
-#### DWeb - The Decetralized Web
-
-#### RTP - Browser to Browser Communcation
-
-#### Blockchain
-
-TODO Vergleiche wie man Airbnb, Uber, ... mithilfe von Blockchain offener gestaltet.
 
 ### The Next (Proprietary) Education Plattform
 
@@ -674,3 +636,27 @@ TODO Vergleiche wie man Airbnb, Uber, ... mithilfe von Blockchain offener gestal
   diversen Bereichen anbietet.
 
 - ... viele weitere
+
+
+
+## Anhang
+
+
+
+### Gopher
+
+--{{0}}--
+Man muss erwähnen, dass das es neben dem @WWW auch andere Versuche gab und gibt
+Informationen in strukturierter Art und Weise abzulegen und miteinander zu
+verknüpfen. [Gopher](https://de.wikipedia.org/wiki/Gopher) war/ist einer
+bekanntesten Kontrahenten der in vielen Punkten mit dem Ansatz von Tim
+Berners-Lee vergleichbar ist.
+
+![Screenshot Fog-Browser](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipedia_Gopher_forg_v0.5.1.png "Der Wikipedia-Artikel in der englischsprachigen Wikipedia mit dem Browser forg")<!-- style="width: 100%" -->
+
+
+### Beaker Browser und DAT
+
+!?[Building peer-to-peer apps with the Beaker Browser - Tara Vancil](https://www.youtube.com/watch?v=raUE23RKLvE)
+
+https://dat.foundation/
