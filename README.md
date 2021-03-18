@@ -379,6 +379,8 @@ fragmentierten Marktes in Europa besitzen nur weniger als ein Viertel des Wertes
 der nordamerikanischen Unternehmen dieser Art. Un auch die Regionen der
 Entwicklungsländer in Afrika und Lateinamerika liegen nicht weit zurück.
 
+![](pic/bubbles2.png)
+
 <!-- data-title="Worldwide market capitalisation of digital platforms (e.g. Uber, Facebook etc) as of 2015" data-show -->
 | Region             | US Dollar (Milliarde) |
 | ------------------ | --------------------: |
@@ -434,7 +436,7 @@ Twitter und Facebook als Kommunikationsmittel und Nachrichtenmedium“ [PHI]. Er
 bezieht sich mit seiner Beobachtung im Wesentlichen auf die US-amerikanische
 Bevölkerung”
 
-#### UBER
+#### UBER (Social Sharing)
 
 1. Darstellung
 ===============
@@ -446,6 +448,28 @@ Bevölkerung”
 
 ![](pic/uber1.png)
 
+Social Sharing
+
+2. Social Sharing
+===============
+Kennst du ähnliche digitale Plattformen wie Uber?
+
+#### discover.swiss
+
+[discover.swiss](https://www.discover.swiss)
+
+![](pic/02_Die_idee.jpg)
+
+#### openEngiadina
+
+[openEngiadina.net](https://openEngiadina.net)
+
+![](pic/openEngiadina.png)
+
+Semantisches Soziales Netzwerk Beispiel:
+
+[chaos.social/web/timelines/public](https://chaos.social/web/timelines/public)
+
 
 ### Startup
 
@@ -453,22 +477,20 @@ Start-up-Fabrik
 ===============
 
 Sie sind die erfolgreichsten deutschen Investoren im Internet: die drei Brüder
-Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus Zalando bauten sie
-einen Milliardenkonzern auf. Wimdu und home24 sind weitere Firmen, bei denen sie
-die Fäden ziehen.
+Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus **Zalando** bauten sie
+einen Milliardenkonzern auf. **Wimdu** und **home24** sind weitere Firmen, bei denen sie die Fäden ziehen.
 
-“Die Start-up-Fabrik „Rocket Internet“ der Samwer-Brüder hat eine ganz eigene
+“Die **Start-up-Fabrik „Rocket Internet“ der Samwer-Brüder** hat eine ganz eigene
 Antwort auf die digitale Disruption gefunden. Sie entwickelten eine Methode, im
-Markt erfolgreiche digitale Geschäftsmodelle zu kopieren und über eine digitale
-Plattform auszurollen.
+Markt **erfolgreiche digitale Geschäftsmodelle zu kopieren** und über eine digitale Plattform auszurollen.
 
-Wichtige Entscheidungen für ein erfolgreiches Startup
+Mobile Plattform
 =====================================================
 
 “Bei Facebook hatte man sich dagegen entschieden, eine konkurrierende mobile
-Plattform zu Google Android oder Apple iOS zu entwickeln. In 2013 wurde
+Plattform zu **Google Android** oder **Apple iOS** zu entwickeln. In 2013 wurde
 „Facebook Home on Android“ ins Leben gerufen, um die Nutzung von Facebook auf
-mobilen Endgeräten zu erhöhen [CHAF]. Heutzutage bilden Mobile Services das
+mobilen Endgeräten zu erhöhen. Heutzutage bilden Mobile Services das
 primäre Geschäft von Facebook. Diesen Turnaround konnte Facebook nur durch die
 Weitsicht des Executive Managements realisieren. Bei Facebook hatte man erkannt,
 dass die damalige interne Unternehmenskonfiguration von Facebook nicht auf
