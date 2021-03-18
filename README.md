@@ -701,3 +701,7 @@ Berners-Lee vergleichbar ist.
 !?[Building peer-to-peer apps with the Beaker Browser - Tara Vancil](https://www.youtube.com/watch?v=raUE23RKLvE)
 
 https://dat.foundation/
+
+## Kontakt & Feedback
+
+<div class="typeform-widget" data-url="https://form.typeform.com/to/SURwRs73?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
