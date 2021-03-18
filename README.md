@@ -11,9 +11,6 @@ narrator: Deutsch Female
 
 logo: https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg
 
-comment: todo
-
-
 
 @abbr: <abbr title="@1">@0</abbr>
 
@@ -329,9 +326,6 @@ Quellen:
 1. Alexa.com: [The top 500 sites on the web](https://www.alexa.com/topsites/)
 2. Wikipedia: [Liste der meistaufgerufenen Websites](https://de.wikipedia.org/wiki/Liste_der_meistaufgerufenen_Websites#cite_note-1)
 
-### Quiz
-
-Todo
 
 ## Digitale Plattformen
 
@@ -531,6 +525,8 @@ Gründe dein eigenes Plattform Startup.
 
 ## Digitale Plattformen von morgen
 
+![Szenen aus dem Film Kung Fury - Time hacking](https://media.giphy.com/media/kPVTbiTORIopy/giphy.gif)
+
 ### Web 3.0
 
 {{1}} **Semantic Web**
@@ -569,7 +565,7 @@ weiteren Ebene der Konnektivität, die alle verfügbaren Informationen nutzt.
 Die Inhalte sind über das Web 3.0 für mehrere Anwendungen zugänglich, jedes
 Gerät ist mit dem Web verbunden, die Dienste können überall genutzt werden.
 
-#### IPFS & Die Probleme des Internets
+### IPFS & Die Probleme des Internets
 
     {{0-1}}
 > **InterPlanetary File System:** A peer-to-peer hypermedia protocol designed to
@@ -626,12 +622,13 @@ Kontrollen bedroht.
 ********************************************************************************
 
 
-    {{4-5}}
+    {{4}}
 ********************************************************************************
 
 Abhängig von der Infrastruktur
 ==============================
 
+    --{{4}}--
 Durch seine zentralisierte Infrastruktur ist das Internet auch sehr
 fehleranfällig. Bricht ein wichtiger Knotenpunkt weg, dann können vermutlich
 viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
@@ -640,7 +637,7 @@ viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
 ********************************************************************************
 
-##### Hallo IPFS!
+#### Hallo IPFS!
 
 {{1}} `$ curl -L https://nixos.org/nix/install | sh`
 
@@ -661,22 +658,39 @@ WebUI: [http://127.0.0.1:5001/webui](http://127.0.0.1:5001/webui)
 
 ### The Next (Proprietary) Education Plattform
 
+    --{{1}}--
+MOOC steht für Massive Open Online Courses und sind nicht nur ein neuartiger
+Trend. Seit 2012 wächst die Zahl an Kursen, Plattformen, Zertifikaten und
+Abschlüßen fast explosionsartig. Jeder kann jederzeit und in seinem Tempo
+lernen.
+
+
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cb/MOOC_poster_mathplourde.jpg)
+
+    --{{2}}--
+Teilweise existieren Kooperationen mit Bildungseinrichtungen, teilweise werden
+Kurse in Eigen-Regie wie Filme oder Computerspiele produziert oder von Nutzern
+direkt erstellt. Es existiert zumeist die Möglichkeit Kurseangebote kostenlos zu
+nutzen, jedoch können dafür meist keine Abschlüße erworben werden. Ein weiterer
+Nachteil der großen Bildungsplattforment ist, dass sich Kurse kommerziell lohnen
+müssen, sodass keine oder nur wenig Lehrinhalte für eher unpopuläre Themen oder
+kleine Communities produziert werden.
+
 
 @MOOCs:
 
-- [Coursera](https://www.coursera.org/): Internationale MOOC-Plattform aus den USA
+* [Coursera](https://www.coursera.org/): Internationale MOOC-Plattform aus den USA
 
-- [edX](https://www.edx.org): Ursprünglich kostenlose Kooperative
+* [edX](https://www.edx.org): Ursprünglich kostenlose Kooperative
   E-Learning-Plattform des MIT und der Harvard University.
 
-- [Udacity](https://www.udacity.com): Kommerzielle US-amerikanische Plattform,
+* [Udacity](https://www.udacity.com): Kommerzielle US-amerikanische Plattform,
   die vor allem Kurse im Informatikbereich anbietet.
 
-- [Udemy](https://www.udemy.com): Eine kommerzielle Plattform, die Kurse in
+* [Udemy](https://www.udemy.com): Eine kommerzielle Plattform, die Kurse in
   diversen Bereichen anbietet.
 
-- ... viele weitere
+* ... viele weitere
 
 
 
