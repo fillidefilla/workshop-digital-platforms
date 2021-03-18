@@ -31,8 +31,6 @@ comment: todo
 
 @MOOCs:   @abbr(MOOCs,Massive Open Online Courses)
 
-@style:   <!--style="width: 100%; max-width: 80vh;"-->
-
 -->
 
 # Die Macht der digitalen Plattformen
@@ -120,7 +118,7 @@ Wann wurde die erste Email versandt?
   * Verknüpfung verschiedener Netze
 
 {{1}}
-![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg)@style
+![Karte des ARPA-Netzwerks im Jahre 1973](https://upload.wikimedia.org/wikipedia/commons/b/bc/Arpanet_map_1973.jpg)
 
 
 ### 1981 - 1993 (TCP/IP, DNS)
@@ -199,7 +197,7 @@ dezentral zu organisieren, miteinander zu verknüpfen (über sogenannte
 Hyperlinks) und direkt abrufbar zu machen.
 
 {{0-2}}
-> ![Tim Berners-Lee der Erfinder des World Wide Webs](https://live.staticflickr.com/8620/16662336315_21b5de0395_h.jpg)@style
+> ![Tim Berners-Lee der Erfinder des World Wide Webs](https://live.staticflickr.com/8620/16662336315_21b5de0395_h.jpg)
 >
 > -- Tim Berners-Lee der Erfinder des World Wide Webs
 
@@ -247,7 +245,7 @@ Tim Berners-Lee entwickelt. Er diente sowohl zum Darstellen von Webseiten, war
 aber auch gleichzeitig ein Editor für @HTML Dokumente.
 
     {{3}}
-![Screenshot von WorldWideWeb, dem ersten Webbrowser](https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png)@style
+![Screenshot von WorldWideWeb, dem ersten Webbrowser](https://upload.wikimedia.org/wikipedia/commons/6/66/WorldWideWeb.1.png)
 
 
 
@@ -337,7 +335,7 @@ Todo
 
 ## Digitale Plattformen
 
-![](pic/economy.png)@style
+![](pic/economy.png)
 
 > “Im Gegensatz zu vielen anderen Autoren erkennt der bereits zitierte
 > Internetblogger Sascha Lobo die Sprachnot der Digitalisierung, wenn er
@@ -357,7 +355,7 @@ In Realität sieht es ein wenig anders aus. Einzelne Unternehmen dominieren den
 digitalen Markt.
 
     {{0-1}}
-![](pic/digital-platform-bubbles.png)@style
+![](pic/digital-platform-bubbles.png)
 
 
     {{1}}
@@ -404,7 +402,7 @@ Peter Evants, Center for Global Enterprise
 
 #### Facebook
 
-![](pic/facebook3.png)@style
+![](pic/facebook3.png)
 
 **Ist Facebook einzigartig?**
 ==================
@@ -446,11 +444,13 @@ Bevölkerung”
 
 1. Darstellung
 ===============
-![](pic/uber2.png)@style
+
+![](pic/uber2.png)
 
 2. Darstellung
 ===============
-![](pic/uber1.png)@style
+
+![](pic/uber1.png)
 
 
 ### Startup
@@ -482,7 +482,8 @@ mobile Produkte und Dienste ausgerichtet war.”
 
 #### Business Model Canvas
 
-![](pic/business-model-canvas-1024x683.png)@style
+![](pic/business-model-canvas-1024x683.png)
+
 Download Link: [business-model-canvas.pdf](https://github.com/fillidefilla/workshop-digital-platforms/blob/master/documents/business-model-canvas.pdf)
 
 Zentrale Bestandteile des Business Model Canvas
@@ -517,11 +518,11 @@ Quellen:
 
 1. Darstellung
 ===============
-![](pic/facebook1.png)@style
+![](pic/facebook1.png)
 
 2. Darstellung
 ===============
-![](pic/facebook2.png)@style
+![](pic/facebook2.png)
 
 
 ##### Dein Plattform Startup
@@ -587,7 +588,7 @@ Uneffizient und teuer
 Daten werden zumeinst vollständig von einem Server geladen, obwohl das teilweise
 und gleichzeitige laden von mehreren Peers resourcensparend und schneller ist.
 
-![](https://ipfs.io/images/ipfs-illustration-http.svg)@style
+![](https://ipfs.io/images/ipfs-illustration-http.svg)<-- style="width: 100%" -->
 
 ********************************************************************************
 
@@ -604,7 +605,7 @@ beträgt 100 Tage. Das Peer-to-Peer System von @IPFS speichert auch die
 vorhergehenden Versionen. Falls ein Peer ausfällt oder Daten aktualisiert
 werden, so können andere Seiten immernoch auf die alten Inhalte zugreifen.
 
-![](https://ipfs.io/images/ipfs-illustration-history.svg)@style
+![](https://ipfs.io/images/ipfs-illustration-history.svg)<-- style="width: 100%" -->
 
 ********************************************************************************
 
@@ -620,7 +621,7 @@ Das Internet hat Innovationen beschleunigt und gewährt allen Menschen
 gleichermaßen Zugriff auf Wissen, jedoch wird diese Freiheit durch mehr und mehr
 Kontrollen bedroht.
 
-![](https://ipfs.io/images/ipfs-illustration-centralized.svg)@style
+![](https://ipfs.io/images/ipfs-illustration-centralized.svg)<-- style="width: 100%" -->
 
 ********************************************************************************
 
@@ -635,7 +636,7 @@ Durch seine zentralisierte Infrastruktur ist das Internet auch sehr
 fehleranfällig. Bricht ein wichtiger Knotenpunkt weg, dann können vermutlich
 viele Dienste nicht mehr genutzt werden, bzw. Webseiten nicht besucht werden.
 
-![](https://ipfs.io/images/ipfs-illustration-network.svg)@style
+![](https://ipfs.io/images/ipfs-illustration-network.svg)<-- style="width: 100%" -->
 
 ********************************************************************************
 
@@ -660,7 +661,7 @@ WebUI: [http://127.0.0.1:5001/webui](http://127.0.0.1:5001/webui)
 
 ### The Next (Proprietary) Education Plattform
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/cb/MOOC_poster_mathplourde.jpg)@style
+![](https://upload.wikimedia.org/wikipedia/commons/c/cb/MOOC_poster_mathplourde.jpg)
 
 @MOOCs:
 
