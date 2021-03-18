@@ -483,10 +483,35 @@ mobile Produkte und Dienste ausgerichtet war.”
 #### Business Model Canvas
 
 ![](pic/business-model-canvas-1024x683.png)@style
+Download Link: [business-model-canvas.pdf](https://github.com/fillidefilla/workshop-digital-platforms/blob/master/documents/business-model-canvas.pdf)
 
-Download Link
+Zentrale Bestandteile des Business Model Canvas
 ===============
-[business-model-canvas.pdf](https://github.com/fillidefilla/workshop-digital-platforms/blob/master/documents/business-model-canvas.pdf)
+Ein Business Model Canvas enthält bis zu elf Felder mit Schlüsselfaktoren. Sie müssen nach und nach mit Inhalt gefüllt und in eine sinnvolle Beziehung zueinander gebracht werden. Bei den Schlüsselfaktoren handelt es sich um:
+
+1. Schlüssel-Partner: Je nach Geschäftsmodell bietet es sich an, eine strategische Partnerschaft einzugehen, um die Effektivität des Unternehmens zu steigern und Risiken auf mehrere Schultern zu verteilen. Frage: Wer kommt als Partner in Frage?
+
+2. Schlüssel-Aktivitäten: Um ein Produkt herzustellen oder eine Leistung zu erbringen, sind bestimmte Tätigkeiten notwendig. Frage: Welches sind die wichtigsten Tätigkeiten, um dieses Geschäftsmodell in die Tat umzusetzen?
+
+3. Nutzen-Versprechen: Jedes Produkt und jede Leistung hat eine Aufgabe: ein Problem des Kunden zu lösen oder ein Bedürfnis zu befriedigen. Jedes Produkt und jede Leistung muss dieses Nutzenversprechen enthalten: neuer, besser, stylischer, günstiger oder einfach nutzerfreundlicher als vergleichbare Angebote zu sein. Frage: Welchen Nutzen haben die Kunden, wenn sie das Produkt oder die Dienstleistung kaufen?
+
+4. Kunden-Beziehung: Kunden können persönlich bedient werden. Sie können auch von Sprachautomaten oder Internet-Software von einer Frage zu einer möglichen Antwort geführt werden. Wie man die Kundenbeziehung gestaltet, ist ein wichtiger Bestandteil des jeweiligen Geschäftsmodells. Frage: Wie können die in Frage kommenden Kunden gewonnen und gebunden werden?
+
+5. Kunden-Arten: Jedes Start-up will ein Produkt oder eine Dienstleistung verkaufen. Als Kunden kommen je nachdem verschiedene Kunden-Arten in Frage: die Masse, einen Nische, diverse Kunden-Segmente. Frage: Welches ist die Kunden-Zielgruppe?
+
+6. Schlüssel-Ressourcen: Eine Produktion zu bewerkstelligen und eine Dienstleistung zu erbringen, ist nur mit bestimmten Ressourcen möglich: Betriebsstätte, Personal, Startkapital usw. Frage: Welche Ressourcen sind unverzichtbar?
+
+7. Vertriebs- und Kommunikations-Kanäle: Kunden kaufen nur, was sie kennen. Und das, was für sie erreichbar und verfügbar ist. Fragen: Wie erfahren Kunden von dem Angebot? Wie muss der Vertrieb aussehen?
+
+8. Kosten: Jede Produktion und jede Dienstleistung ist mit Kosten verbunden. Sie fallen vor allem für die Aktivitäten, die Ressourcen und für Partner an. Frage: Welches sind die wichtigsten Ausgaben, ohne die das Geschäftsmodell nicht funktionieren würde?
+
+9. Einnahmequellen: Es gibt oft mehrere Wege, mit demselben Angebot Geld zu verdienen. Einmalzahlungen bringen schnell Geld in die Kasse. Abonnenten versprechen dagegen kontinuierliche Einkünfte über längere Zeit. Frage: Woher kommt bei diesem Geschäftsmodell das Geld?
+
+Quellen:
+
+[Deutsche Informationen](https://www.existenzgruender.de/DE/Gruendung-vorbereiten/Businessplan/Business-Model-Canvas/inhalt.html)
+
+[English Information](https://en.wikipedia.org/wiki/Business_Model_Canvas)
 
 ##### Business Model Beispiel
 
@@ -499,7 +524,7 @@ Download Link
 ![](pic/facebook2.png)@style
 
 
-##### Dein eigenes Plattform Startup
+##### Dein Plattform Startup
 
 Gründe dein eigenes Plattform Startup.
 
