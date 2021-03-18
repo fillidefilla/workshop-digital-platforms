@@ -39,7 +39,7 @@ comment: todo
 
 |         | Fabio Fill                                         | André Dietrich                                         |
 | ------- | -------------------------------------------------- | ------------------------------------------------------ |
-| WebSite |                                                    | https://aizac.herokuapp.com                            |
+| WebSite | fillidefilla.com                                             | https://aizac.herokuapp.com                            |
 | GitHub  | https://github.com/fillidefilla                    | https://github.com/andre-dietrich                      |
 | Twitter | [\@FilliDeFilla](https://twitter.com/FilliDeFilla) | [\@andre-dietrich](https://twitter.com/andre-dietrich) |
 | eMail   |                                                    | LiaScript@web.de                                       |
@@ -337,7 +337,18 @@ Todo
 
 ## Digitale Plattformen
 
-TODO: Begriffe Digital und Plattform
+![](pic/economy.png)@style
+
+> “Im Gegensatz zu vielen anderen Autoren erkennt der bereits zitierte
+> Internetblogger Sascha Lobo die Sprachnot der Digitalisierung, wenn er
+> schreibt: „Man sagt Internet, aber Apps gehören in der Regel nicht dazu. Man
+> sagt Netz, aber Android kann damit kaum gemeint sein. Man sagt Web, aber
+> Ebooks haben damit wenig zu tun. Aber Begriffe prägen Diskussionen und damit
+> die zukünftige Entwicklung.“ So schlägt Lobo dann vor: „… deshalb soll der
+> Begriff ,Digitale Sphäre ‘ für alles stehen, was elektronisch und datenbasiert
+> funktioniert”
+>
+> Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
 
 ### Plattformunternehmen
 
@@ -389,30 +400,15 @@ Entwicklungsländer in Afrika und Lateinamerika liegen nicht weit zurück.
 Quelle:
 Peter Evants, Center for Global Enterprise
 
-#### Wirtschaft
-
-![](pic/economy.png)@style
-
-> “Im Gegensatz zu vielen anderen Autoren erkennt der bereits zitierte
-> Internetblogger Sascha Lobo die Sprachnot der Digitalisierung, wenn er
-> schreibt: „Man sagt Internet, aber Apps gehören in der Regel nicht dazu. Man
-> sagt Netz, aber Android kann damit kaum gemeint sein. Man sagt Web, aber
-> Ebooks haben damit wenig zu tun. Aber Begriffe prägen Diskussionen und damit
-> die zukünftige Entwicklung.“ So schlägt Lobo dann vor: „… deshalb soll der
-> Begriff ,Digitale Sphäre ‘ für alles stehen, was elektronisch und datenbasiert
-> funktioniert”
->
-> Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
-
 ### Case Studies
 
 #### Facebook
 
-![](pic/facebook1.png)@style
-![](pic/facebook2.png)@style
 ![](pic/facebook3.png)@style
 
-“3.5 Auf dem Weg zur digitalen Identität – Facebook Case Study Vielleicht kennen
+**Ist Facebook einzigartig?**
+==================
+“Auf dem Weg zur digitalen Identität – Facebook Case Study Vielleicht kennen
 einige Leser noch die untergegangene digitale Plattform „My Space “, die in der
 Prä-Facebook-Ära das dominierende soziale Medium darstellte. Die als
 Visitenkarte für junge Musikbands konzipierte digitale My Space-Plattform war
@@ -431,9 +427,9 @@ damalige Präsident von MySpace, Jason Hirschhorn, sagte 2010: „MySpace ist ke
 Ort, an dem sich Leute darüber austauschen, was sie so vorhaben“ [PIL]. In der
 Rückschau lässt sich immer leicht erkennen[…]”
 
-Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.” Apple Books.
+Excerpt From: Michael Jaekel. “Die Macht der digitalen Plattformen.”
 
-Macht von Facebook
+**Macht von Facebook**
 ==================
 
 “Die Relevanz von Facebook als digitale Plattform ergibt sich alleine daraus,
@@ -448,8 +444,14 @@ Bevölkerung”
 
 #### UBER
 
-![](pic/uber1.png)@style
+1. Darstellung
+===============
 ![](pic/uber2.png)@style
+
+2. Darstellung
+===============
+![](pic/uber1.png)@style
+
 
 ### Startup
 
@@ -480,13 +482,26 @@ mobile Produkte und Dienste ausgerichtet war.”
 
 #### Business Model Canvas
 
+![](pic/business-model-canvas-1024x683.png)@style
+
+Download Link
+===============
+[business-model-canvas.pdf](https://github.com/fillidefilla/workshop-digital-platforms/blob/master/documents/business-model-canvas.pdf)
+
 ##### Business Model Beispiel
 
-TODO
+1. Darstellung
+===============
+![](pic/facebook1.png)@style
+
+2. Darstellung
+===============
+![](pic/facebook2.png)@style
+
 
 ##### Dein eigenes Plattform Startup
 
-Gruppenarbeit: Gründe ein Plattform Startup.
+Gründe dein eigenes Plattform Startup.
 
 ## Digitale Plattformen von morgen
 
