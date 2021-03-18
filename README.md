@@ -588,7 +588,7 @@ Uneffizient und teuer
 Daten werden zumeinst vollständig von einem Server geladen, obwohl das teilweise
 und gleichzeitige laden von mehreren Peers resourcensparend und schneller ist.
 
-![](https://ipfs.io/images/ipfs-illustration-http.svg)<-- style="width: 100%" -->
+![](https://ipfs.io/images/ipfs-illustration-http.svg)<!-- style="width: 100%" -->
 
 ********************************************************************************
 
@@ -605,7 +605,7 @@ beträgt 100 Tage. Das Peer-to-Peer System von @IPFS speichert auch die
 vorhergehenden Versionen. Falls ein Peer ausfällt oder Daten aktualisiert
 werden, so können andere Seiten immernoch auf die alten Inhalte zugreifen.
 
-![](https://ipfs.io/images/ipfs-illustration-history.svg)<-- style="width: 100%" -->
+![](https://ipfs.io/images/ipfs-illustration-history.svg)<!-- style="width: 100%" -->
 
 ********************************************************************************
 
@@ -621,7 +621,7 @@ Das Internet hat Innovationen beschleunigt und gewährt allen Menschen
 gleichermaßen Zugriff auf Wissen, jedoch wird diese Freiheit durch mehr und mehr
 Kontrollen bedroht.
 
-![](https://ipfs.io/images/ipfs-illustration-centralized.svg)<-- style="width: 100%" -->
+![](https://ipfs.io/images/ipfs-illustration-centralized.svg)<!-- style="width: 100%" -->
 
 ********************************************************************************
 
@@ -693,7 +693,7 @@ verknüpfen. [Gopher](https://de.wikipedia.org/wiki/Gopher) war/ist einer
 bekanntesten Kontrahenten der in vielen Punkten mit dem Ansatz von Tim
 Berners-Lee vergleichbar ist.
 
-![Screenshot Fog-Browser](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipedia_Gopher_forg_v0.5.1.png "Der Wikipedia-Artikel in der englischsprachigen Wikipedia mit dem Browser forg")<!-- style="width: 100%" -->
+![Screenshot Fog-Browser](https://upload.wikimedia.org/wikipedia/commons/c/c8/Wikipedia_Gopher_forg_v0.5.1.png "Der Wikipedia-Artikel in der englischsprachigen Wikipedia mit dem Browser forg")
 
 
 ### Beaker Browser und DAT
