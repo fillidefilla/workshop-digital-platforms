@@ -32,9 +32,9 @@ logo: https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg
 
 # Die Macht der digitalen Plattformen
 
-|         | Fabio Fill                                         | André Dietrich                                         |
+|         | Fabio Filli                                        | André Dietrich                                         |
 | ------- | -------------------------------------------------- | ------------------------------------------------------ |
-| WebSite | fillidefilla.com                                             | https://aizac.herokuapp.com                            |
+| WebSite | https://fillidefilla.com                                   | https://aizac.herokuapp.com                            |
 | GitHub  | https://github.com/fillidefilla                    | https://github.com/andre-dietrich                      |
 | Twitter | [\@FilliDeFilla](https://twitter.com/FilliDeFilla) | [\@andre-dietrich](https://twitter.com/andre-dietrich) |
 | eMail   |                                                    | LiaScript@web.de                                       |
