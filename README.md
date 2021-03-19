@@ -398,7 +398,25 @@ Peter Evants, Center for Global Enterprise
 
 #### Facebook
 
+**Mehr als nur eine Plattform**
+=====================================================
+
 ![](pic/facebook3.png)
+
+**Mobile Plattform**
+=====================================================
+
+“Bei Facebook hatte man sich dagegen entschieden, eine konkurrierende mobile
+Plattform zu **Google Android** oder **Apple iOS** zu entwickeln. In 2013 wurde
+„Facebook Home on Android“ ins Leben gerufen, um die Nutzung von Facebook auf
+mobilen Endgeräten zu erhöhen. Heutzutage bilden Mobile Services das
+primäre Geschäft von Facebook. Diesen Turnaround konnte Facebook nur durch die
+Weitsicht des Executive Managements realisieren. Bei Facebook hatte man erkannt,
+dass die damalige interne Unternehmenskonfiguration von Facebook nicht auf
+mobile Produkte und Dienste ausgerichtet war.”
+
+![](https://cdn.prod.www.manager-magazin.de/images/c515dba8-0001-0004-0000-000001320665_w948_r1.77_fpx55.97_fpy49.98.jpg)
+
 
 **Ist Facebook einzigartig?**
 ==================
@@ -476,25 +494,15 @@ Semantisches Soziales Netzwerk Beispiel:
 Start-up-Fabrik
 ===============
 
-Sie sind die erfolgreichsten deutschen Investoren im Internet: die drei Brüder
-Oliver, Marc und Alexander Samwer. Mit dem Online-Modehaus **Zalando** bauten sie
-einen Milliardenkonzern auf. **Wimdu** und **home24** sind weitere Firmen, bei denen sie die Fäden ziehen.
-
 “Die **Start-up-Fabrik „Rocket Internet“ der Samwer-Brüder** hat eine ganz eigene
 Antwort auf die digitale Disruption gefunden. Sie entwickelten eine Methode, im
 Markt **erfolgreiche digitale Geschäftsmodelle zu kopieren** und über eine digitale Plattform auszurollen.
 
-Mobile Plattform
-=====================================================
+Stein für Stein haben die Samwers so ihr Vermögen gemehrt, mit den Ideen fremder Leute: Mit dem Ebay-Imitat Alando, das sie nach einem halben Jahr für 43 Millionen Dollar an Ebay verkauften, dem Klingeltonanbieter Jamba (Verkauf für 273 Millionen Dollar), dem Gutscheinanbieter Citydeal (Vorbild Groupon). Mit dem Kosmetikpröbchen-Versender Glossybox ahmen sie das kalifornische Birchbox nach. Samwersche Amazon-Adaptionen finden sich in Afrika (Jumia und Kasuwa), in Brasilien (Kanui) und Südostasien (Lazada). Mit Wimdu und Airizu treten sie gegen Airbnb an, gegen das Online-Pinbrett Pinterest setzten die Brüder Pinspire, nach dem Modell der Kreditplattform Lending Club bauen sie in Deutschland Lendico auf. Die Liste ließe sich endlos fortsetzen. Samwers Essensbringdienst Foodpanda imitiert Just-Eat, Fashion4home hat MyFab als Vorbild und Home24, Samwers Online-Shop für Möbel, Hayneedle und CSN Stores.
 
-“Bei Facebook hatte man sich dagegen entschieden, eine konkurrierende mobile
-Plattform zu **Google Android** oder **Apple iOS** zu entwickeln. In 2013 wurde
-„Facebook Home on Android“ ins Leben gerufen, um die Nutzung von Facebook auf
-mobilen Endgeräten zu erhöhen. Heutzutage bilden Mobile Services das
-primäre Geschäft von Facebook. Diesen Turnaround konnte Facebook nur durch die
-Weitsicht des Executive Managements realisieren. Bei Facebook hatte man erkannt,
-dass die damalige interne Unternehmenskonfiguration von Facebook nicht auf
-mobile Produkte und Dienste ausgerichtet war.”
+Quelle:
+
+[FAZ](https://www.faz.net/aktuell/finanzen/aktien/zalando-mehr-die-samwers-und-die-kunst-des-kopierens-13139369.html)
 
 #### Business Model Canvas
 
